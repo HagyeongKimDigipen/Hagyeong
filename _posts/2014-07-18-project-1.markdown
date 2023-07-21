@@ -17,6 +17,8 @@ description: Use this area of the page to describe your project. Lorem ipsum dol
   Your browser does not support the video tag.
 </video>
 
+![Image](cabin.png)
+
 * [Original Flow Hive video](https://www.youtube.com/watch?v=0_pj4cz2VJM)
 * [Website](http://www.honeyflow.com/)
 * [Here's the patent](http://www.freepatentsonline.com/20140370781.pdf).
