@@ -8,28 +8,28 @@
   {% include portfolio_grid.html %}
   {% include about.html %}
 
-    <!-- New section for the video -->
-    <section id="video" class="bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Video Showcase</h2>
-            <div class="section-subheading text-muted">Check out our awesome video</div>
-          </div>
+  <!-- New section for the video -->
+  <section id="video" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Video Showcase</h2>
+          <div class="section-subheading text-muted">Check out our awesome video</div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="embed-responsive embed-responsive-16by9">
-              <video width="640" height="360" controls>
-                <source src="/img/portfolio/refraction.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video width="640" height="360" controls>
+              <source src="{{ page.video }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End of new video section -->
+    </div>
+  </section>
+  <!-- End of new video section -->
 
   {% if site.contact == "static" %}
   {% include contact_static.html %}
