@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 date: 2014-07-18
 img: cabin.png
-<video width="640" height="360" controls>
+description: <video width="640" height="360" controls>
   <source src="/img/portfolio/refraction.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
