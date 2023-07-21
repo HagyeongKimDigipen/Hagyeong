@@ -11,6 +11,12 @@ category: Web Development
 description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 
 ---
+
+<video width="640" height="360" controls>
+  <source src="/img/portfolio/refraction.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 * [Original Flow Hive video](https://www.youtube.com/watch?v=0_pj4cz2VJM)
 * [Website](http://www.honeyflow.com/)
 * [Here's the patent](http://www.freepatentsonline.com/20140370781.pdf).
