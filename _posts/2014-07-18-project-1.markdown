@@ -2,6 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
+tags: [Flow Hive, Honey Bucket]
 img: cabin.png
 video: /img/portfolio/refraction.mp4
 alt: image-alt
@@ -11,6 +12,9 @@ category: Web Development
 description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 
 ---
+* [Original Flow Hive video](https://www.youtube.com/watch?v=0_pj4cz2VJM)
+* [Website](http://www.honeyflow.com/)
+* [Here's the patent](http://www.freepatentsonline.com/20140370781.pdf).
 
 <video width="640" height="360" controls>
   <source src="{{ page.video }}" type="video/mp4">
@@ -18,6 +22,4 @@ description: Use this area of the page to describe your project. Lorem ipsum dol
 </video>
 
 <!-- <iframe width="420" height="315" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe> -->
-
-
 
