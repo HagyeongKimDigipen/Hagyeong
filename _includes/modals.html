@@ -15,17 +15,20 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
+            {% if post.img.size == 1 %}
+            <img src="{{ post.img[0] }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            {% else %}
+            <img src="{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             <div class="image-grid">
               <div class="row">
-                {% if post.img.size == 1 %}
-                  <img src="{{ post.img[0] }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                {% else %}
+                {% for image in post.img %}
                 <div class="col-md-4">
                   <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                 </div>
                 {% endfor %}
               </div>
             </div>
+            {% endif %}
             <!-- Add the video tag here -->
             <video width="640" height="360" controls>
               <source src="video/{{ post.video }}" type="video/mp4">
