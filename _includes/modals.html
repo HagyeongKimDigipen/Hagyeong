@@ -17,8 +17,8 @@
             <hr class="star-primary">
             <div class="image-grid">
               <div class="row">
-                {% if post.images.size == 1 %}
-                  <img src="{{ post.images[0] }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                {% if post.img.size == 1 %}
+                  <img src="{{ post.img[0] }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                 {% else %}
                 <div class="col-md-4">
                   <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
