@@ -6,11 +6,14 @@ img:
 - cabin.png
 images: 
 - cabin.png
+- cake.png
+- circus.png
 - cabin.png
 - cabin.png
 - cabin.png
 - cabin.png
-- cabin.png
+- cake.png
+- circus.png
 
 video: refraction.mp4
 alt: image-alt
