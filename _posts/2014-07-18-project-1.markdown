@@ -11,9 +11,7 @@ images:
 - cabin.png
 - cabin.png
 - cabin.png
-- cabin.png
-- cabin.png
-- cabin.png
+
 video: refraction.mp4
 alt: image-alt
 project-date: April 2014
