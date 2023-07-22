@@ -15,7 +15,15 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <div class="image-grid">
+              <div class="row">
+                {% for image in post.images %}
+                <div class="col-md-4">
+                  <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                </div>
+                {% endfor %}
+              </div>
+            </div>
             <!-- Add the video tag here -->
             <video width="640" height="360" controls>
               <source src="video/{{ post.video }}" type="video/mp4">
