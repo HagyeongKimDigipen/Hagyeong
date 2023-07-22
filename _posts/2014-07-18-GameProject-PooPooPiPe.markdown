@@ -2,15 +2,11 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: 
-- cabin.png
+img: cabin.png
 images: 
-- cabin.png
+- game.png
 - cake.png
 - circus.png
-- cabin.png
-- cabin.png
-- cabin.png
 
 video: refraction.mp4
 alt: image-alt
