@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
+            <h2>{{ post.project-category }}: {{ post.name }}</h2>
             <hr class="star-primary">
             {% if post.img.size == 1 %}
             <img src="img/portfolio/{{ post.img[0] }}" class="img-responsive img-centered" alt="{{ post.alt }}">

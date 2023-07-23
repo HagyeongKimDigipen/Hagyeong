@@ -1,5 +1,7 @@
 ---
 layout: default
+project-category: GameProject
+name: PooPooPiPe
 modal-id: 1
 date: 2014-07-18
 thumbnail: cabin.png
@@ -12,6 +14,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: hello I want to check line breaks <br/><br/><br/> is it work?
+description: hello I want to check line breaks <br/><br/><br/> is it work? and I add name
 
 ---
