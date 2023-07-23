@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 5
-date: 2014-07-14
+modal-id: 7
+date: 2014-07-12
 project-category: Graphics Engine
-name: 1
-thumbnail: safe.png
+name: DirectX
+thumbnail: submarine.png
 img: 
 - cabin.png
 alt: image-alt

@@ -2,6 +2,8 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
+project-category: GameProject
+name: Release From Perdition
 thumbnail: cake.png
 img: 
 - game.png

@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 5
-date: 2014-07-14
-project-category: Graphics Engine
-name: 1
-thumbnail: safe.png
+modal-id: 10
+date: 2014-07-11
+project-category: Mobile Game Project
+name: Pang Pang Cloud
+thumbnail: submarine.png
 img: 
 - cabin.png
 alt: image-alt
