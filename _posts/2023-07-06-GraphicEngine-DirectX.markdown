@@ -7,6 +7,7 @@ name: Direct X
 thumbnail: submarine.png
 img: 
 - cabin.png
+video: 200Project.mp4
 alt: image-alt
 project-date: March 2020 - August 2020
 client: Start Bootstrap

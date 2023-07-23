@@ -7,6 +7,7 @@ name: Are You Ready
 thumbnail: submarine.png
 img: 
 - cabin.png
+video: AReYouReady.mp4
 alt: image-alt
 project-date: September 2022 - April 2023
 client: Start Bootstrap

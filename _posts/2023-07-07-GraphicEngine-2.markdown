@@ -7,6 +7,7 @@ name: 2
 thumbnail: submarine.png
 img: 
 - cabin.png
+video: refraction.mp4
 alt: image-alt
 project-date: September 2021 - November 2020
 client: Start Bootstrap

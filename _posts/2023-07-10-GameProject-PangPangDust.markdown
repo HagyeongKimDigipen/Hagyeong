@@ -7,6 +7,7 @@ name: Pang Pang Dust
 thumbnail: circus.png
 img: 
 - cabin.png
+video: PangPangDust.mp4
 alt: image-alt
 project-date: March 2019 - June 2019
 client: Start Bootstrap

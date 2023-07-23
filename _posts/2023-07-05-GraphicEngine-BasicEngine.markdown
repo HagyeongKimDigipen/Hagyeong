@@ -7,6 +7,7 @@ name: Basic Engine
 thumbnail: submarine.png
 img: 
 - cabin.png
+video: project1.mp4
 alt: image-alt
 project-date: March 2020 - August 2020
 client: Start Bootstrap
