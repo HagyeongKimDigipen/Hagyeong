@@ -17,6 +17,6 @@ alt: image-alt
 project-date: September 2019 - June 2020
 role: Producer
 category: Game Project
-description: hello I want to check line breaks <br/><br/><br/> is it work? and I add name 2
+description: hello I want to check line breaks <br/><br/><br/> is it work? add image check
 
 ---
