@@ -1,8 +1,8 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
-project-category: GameProject
+date: 2023-07-11
+project-category: Game Project
 name: Release From Perdition
 thumbnail: cake.png
 img: 
@@ -10,7 +10,7 @@ img:
 - cake.png
 - circus.png
 alt: image-alt
-project-date: April 2014
+project-date: September 2021 - April 2022
 client: Start Bootstrap
 category: Web Development
 description: change 8

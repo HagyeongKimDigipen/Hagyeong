@@ -1,10 +1,10 @@
 ---
 layout: default
-modal-id: 6
-date: 2014-07-15
-project-category: Graphics Engine
-name: 2
-thumbnail: submarine.png
+modal-id: 12
+date: 2023-07-01
+project-category: Nan
+name: Nan
+thumbnail: cabin.png
 img: 
 - cabin.png
 alt: image-alt
