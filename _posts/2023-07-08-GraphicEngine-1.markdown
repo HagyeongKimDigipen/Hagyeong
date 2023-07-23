@@ -10,7 +10,7 @@ img:
 video: lighting.mp4
 alt: image-alt
 project-date: September 2021 - November 2020
-client: Start Bootstrap
-category: Web Development
+role: Solo Proejct
+category: Academic Graphics Engine
 description: lighting
 ---

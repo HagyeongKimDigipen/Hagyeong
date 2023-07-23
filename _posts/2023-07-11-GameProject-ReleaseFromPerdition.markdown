@@ -12,7 +12,7 @@ img:
 video: ReleaseFromPerdition_mid.mp4
 alt: image-alt
 project-date: September 2021 - April 2022
-client: Start Bootstrap
-category: Web Development
+role: Programmer
+category: Game Project
 description: change 8
 ---
