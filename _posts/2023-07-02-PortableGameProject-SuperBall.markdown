@@ -6,7 +6,9 @@ project-category: Portable Game Project
 name: Super Ball
 thumbnail: submarine.png
 img: 
-- cabin.png
+ - SuperBall/PortableHand.gif
+ - SuperBall/PortableGame.gif
+video: portableEdit.mp4
 alt: image-alt
 project-date: September 2022 - December 2022
 role: Programmer
