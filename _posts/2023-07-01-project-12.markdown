@@ -2,14 +2,14 @@
 layout: default
 modal-id: 12
 date: 2023-07-01
-project-category: Nan
-name: Nan
+project-category: Comming Soon
+name: Comming Soon
 thumbnail: cabin.png
 img: 
 - cabin.png
 alt: image-alt
-project-date: March 2023 - Agust 2023
+project-date: -
 role: Programmer
-category: Game Project
+category: -
 description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
 ---
