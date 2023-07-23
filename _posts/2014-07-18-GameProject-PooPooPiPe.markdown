@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-project-category: GameProject
+project-category: Game Project
 name: Poo Poo PiPe
 thumbnail: cabin.png
 img: 
