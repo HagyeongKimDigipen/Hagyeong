@@ -4,9 +4,18 @@ modal-id: 3
 date: 2023-07-10
 project-category: Game Project
 name: Pang Pang Dust
-thumbnail: circus.png
+thumbnail: PangPangDust/PangPangDust_3.png
 img: 
-- cabin.png
+ - PangPangDust/PangPangDust_1.png
+ - PangPangDust/PangPangDust_2.png
+ - PangPangDust/PangPangDust_4.png
+ - PangPangDust/PangPangDust_5.png
+ - PangPangDust/PangPangDust_6.png
+ - PangPangDust/PangPangDust_7.png
+ - PangPangDust/PangPangDust_11.png
+ - PangPangDust/PangPangDust_12.png
+ - PangPangDust/PangPangDust_13.png
+
 video: PangPangDust.mp4
 alt: image-alt
 project-date: March 2019 - June 2019

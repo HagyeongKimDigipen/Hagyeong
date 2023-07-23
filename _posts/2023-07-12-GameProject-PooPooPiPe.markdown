@@ -4,11 +4,14 @@ modal-id: 1
 date: 2023-07-12
 project-category: Game Project
 name: Poo Poo PiPe
-thumbnail: cabin.png
+thumbnail: PooPooPiPe/PooPooPiPe_1.png
 img: 
-  - game.png
-  - cake.png
-  - circus.png
+  - PooPooPiPe/PooPooPiPe_1.png
+  - PooPooPiPe/PooPooPiPe_2.png
+  - PooPooPiPe/PooPooPiPe_3.png
+  - PooPooPiPe/PooPooPiPe_4.png
+  - PooPooPiPe/PooPooPiPe_5.png
+  - PooPooPiPe/PooPooPiPe_6.png
 video: PooPooPipe.mp4
 alt: image-alt
 project-date: September 2019 - June 2020

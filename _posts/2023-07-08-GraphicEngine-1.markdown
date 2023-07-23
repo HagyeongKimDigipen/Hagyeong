@@ -4,9 +4,11 @@ modal-id: 5
 date: 2023-07-08
 project-category: Graphics Engine
 name: 1
-thumbnail: safe.png
+thumbnail: graphic1/graphic1_1.png
 img: 
-- cabin.png
+ - graphic1/graphic1_1.png
+ - graphic1/graphic1_2.png
+ - graphic1/graphic1_3.png
 video: lighting.mp4
 alt: image-alt
 project-date: September 2021 - November 2020

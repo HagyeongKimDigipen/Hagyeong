@@ -4,7 +4,7 @@ modal-id: 4
 date: 2023-07-09
 project-category: Game Project
 name: Basic Game Engine
-thumbnail: game.png
+thumbnail: BasicGameEngine/BasicGameEngine_1.png
 img: 
 - cabin.png
 video: 230Project.mp4

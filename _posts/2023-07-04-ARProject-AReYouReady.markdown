@@ -4,9 +4,17 @@ modal-id: 9
 date: 2023-07-04
 project-category: AR Project
 name: Are You Ready
-thumbnail: submarine.png
+thumbnail: AReYouReady/AReYouReady_1.png
 img: 
-- cabin.png
+ - AReYouReady/AReYouReady_1.png
+ - AReYouReady/AReYouReady_2.png
+ - AReYouReady/AReYouReady_3.png
+ - AReYouReady/AReYouReady_4.png
+ - AReYouReady/AReYouReady_5.png
+ - AReYouReady/AReYouReady_6.png
+ - AReYouReady/AReYouReady_7.png
+ - AReYouReady/AReYouReady_8.png
+ - AReYouReady/AReYouReady_9.png
 video: AReYouReady.mp4
 alt: image-alt
 project-date: September 2022 - April 2023

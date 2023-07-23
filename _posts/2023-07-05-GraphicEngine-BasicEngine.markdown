@@ -4,9 +4,11 @@ modal-id: 8
 date: 2023-07-05
 project-category: Graphics Engine
 name: Basic Engine
-thumbnail: submarine.png
+thumbnail: BasicGrphicEngine/BasicGrphicEngine_1.png
 img: 
-- cabin.png
+ - BasicGrphicEngine/BasicGrphicEngine_1.png
+ - BasicGrphicEngine/BasicGrphicEngine_2.png
+ - BasicGrphicEngine/BasicGrphicEngine_3.png
 video: project1.mp4
 alt: image-alt
 project-date: March 2020 - August 2020
