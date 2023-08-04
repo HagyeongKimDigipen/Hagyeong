@@ -21,5 +21,5 @@ alt: image-alt
 project-date: March 2019 - June 2019
 role: Producer
 category: Game Project
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: More detailed descriptions will be added soon.
 ---
