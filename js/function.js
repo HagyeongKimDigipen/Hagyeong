@@ -1,5 +1,5 @@
 function stopVideo() {
-  const videoPlayer = $("ortfolioModal-{{ post.modal-id }}").find("#videoPlayer")[0];
+  const videoPlayer = $("portfolioModal-{{ post.modal-id }}").find("#videoPlayer")[0];
   videoPlayer.pause();
 
     // Manually close the modal
