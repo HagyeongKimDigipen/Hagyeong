@@ -1,6 +1,9 @@
 function stopVideo() {
   const videoPlayer = $("#videoPlayer")[0];
   videoPlayer.pause();
+
+    // Manually close the modal
+    $("#portfolioModal").modal("hide");
 }
 
 function toggleButtonText() {
@@ -18,11 +21,5 @@ function toggleButtonText() {
 $(document).ready(function () {
   $("#toggleButton").click(function () {
     toggleButtonText();
-  });
-});
-
-$(document).ready(function () {
-  $("#pauseVideo").click(function () {
-    stopVideo();
   });
 });
