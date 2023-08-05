@@ -23,3 +23,9 @@ $(document).ready(function () {
     toggleButtonText();
   });
 });
+
+$(document).ready(function () {
+  $("#pauseVideo").click(function () {
+    stopVideo(); // Call the stopVideo function when the button is clicked
+  });
+});
