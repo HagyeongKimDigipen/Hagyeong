@@ -57,13 +57,21 @@ $(function() {
 });
 
 function showDescription() {
+  const nameKorean = document.getElementById("name-korean");
   const englishDescription = document.getElementById("english-description");
   const koreanDescription = document.getElementById("korean-description");
 
-  if (window.forLanguage === false) {
+  if (window.forLanguage === false) //Korean
+  {
+    nameEnglish.style.display = "none";
+    nameKorean.style.display = "inline";
     englishDescription.style.display = "block";
     koreanDescription.style.display = "none";
-  } else {
+  } 
+  else //English 
+  {
+    nameEnglish.style.display = "inline";
+    nameKorean.style.display = "none";
     englishDescription.style.display = "none";
     koreanDescription.style.display = "block";
   }
