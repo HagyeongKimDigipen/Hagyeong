@@ -73,14 +73,9 @@ $(function() {
   });
 });
 
-$(document).ready(function () {
-  $("#languageChange1").click(function () {
-    createLanguageButtons(); // change Language
-  });
-});
 
 $(document).ready(function () {
-  $("#languageChange2").click(function () {
+  $("#languageChange1").click(function () {
     changeLanguage(); // change Language
   });
 });
@@ -88,8 +83,3 @@ $(document).ready(function () {
 /*window.forLanguage = function() {
   console.log("This is a global function!");
 };*/
-
-// 전역 함수 선언
-window.myGlobalFunction = function() {
-  console.log("This is a global function!");
-};
