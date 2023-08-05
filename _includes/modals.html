@@ -3,7 +3,7 @@
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
-    <script src="/_includes/function.js"></script>
+    <!--<script src="{{ " js/function.js" }}"></script></script>-->
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
         <div class="rl">
@@ -63,7 +63,7 @@
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" onclick="toggleButtonText()"><i class="fa fa-times"></i>
+            <button type="button" class="btn btn-default" data-dismiss="modal" onclick="toggleButtonText()"><i class="fa fa-times"></i>
               <span id="buttonText">Close</span></button>       
           </div>
         </div>
