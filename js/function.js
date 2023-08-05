@@ -17,6 +17,6 @@ function stopVideo() {
 
 $(document).ready(function () {
   $("#pauseVideo").click(function () {
-    stopVideos(); // Call the stopVideo function when the button is clicked
+    stopVideo(); // Call the stopVideo function when the button is clicked
   });
 });
