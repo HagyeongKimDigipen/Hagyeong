@@ -1,5 +1,5 @@
 function stopVideo() {
-  const videoPlayer = $("#videoPlayer")[0];
+  const videoPlayer = $("#videoPlayer-{{ post.modal-id }}")[0];
   videoPlayer.pause();
 
     // Manually close the modal
