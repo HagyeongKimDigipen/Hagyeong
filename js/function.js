@@ -67,20 +67,26 @@ function showDescription() {
   const nameKorean = document.getElementById("name-korean");
   const englishDescription = document.getElementById("english-description");
   const koreanDescription = document.getElementById("korean-description");
+  const englishDescriptionSchool = document.getElementById("english-description-school");
+  const koreanDescriptionSchool = document.getElementById("korean-description-school");
 
   if (window.forLanguage === false) //Korean
   {
     nameEnglish.style.display = "none";
-    nameKorean.style.display = "block";
+    nameKorean.style.display = "inline-block";
     englishDescription.style.display = "none";
-    koreanDescription.style.display = "block";
+    koreanDescription.style.display = "inline-block";
+    englishDescriptionSchool.style.display = "inline-block"
+    koreanDescriptionSchool.style.display = "inline-block"
   } 
   else //English 
   {
-    nameEnglish.style.display = "block";
+    nameEnglish.style.display = "inline-block";
     nameKorean.style.display = "none";
-    englishDescription.style.display = "block";
+    englishDescription.style.display = "inline-block";
     koreanDescription.style.display = "none"; //block
+    englishDescriptionSchool.style.display = "inline-block"
+    koreanDescriptionSchool.style.display = "none"
   }
 }
 
