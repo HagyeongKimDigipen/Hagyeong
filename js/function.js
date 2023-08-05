@@ -3,7 +3,7 @@ function stopVideo() {
   videoPlayer.pause();
 
     // Manually close the modal
-    $("#portfolioModal").modal("hide");
+    $("#portfolioModal-{{ post.modal-id }}").modal("hide");
 }
 
 function toggleButtonText() {
@@ -25,7 +25,8 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $("#pauseVideo").click(function () {
+  $("#pauseVideo").click(function (event) {
+    event.stopPropagation(); // Prevent the default behavior of the data-dismiss attribute
     stopVideo(); // Call the stopVideo function when the button is clicked
   });
 });
