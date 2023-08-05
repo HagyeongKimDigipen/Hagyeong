@@ -1,9 +1,9 @@
-function stopVideo() {
-  const videoPlayer = $("portfolioModal-{{ post.modal-id }}").find("#videoPlayer")[0];
+function stopVideo(postModalId) {
+  const videoPlayer = $("#" + postModalId).find("#videoPlayer")[0];
   videoPlayer.pause();
 
     // Manually close the modal
-  $("#portfolioModal-{{ post.modal-id }}").modal("hide");
+    $("#" + postModalId).modal("hide");
 }
 
 /*function stopVideos(button) {
@@ -16,7 +16,8 @@ function stopVideo() {
 }*/
 
 $(document).ready(function () {
-  $("#pauseVideo").click(function () {
-    stopVideo(); // Call the stopVideo function when the button is clicked
+  $(".pauseVideoButton").click(function () {
+    const postModalId = $(this).data("modal-id");
+    stopVideo(postModalId); // Call the stopVideo function when the button is clicked
   });
 });
