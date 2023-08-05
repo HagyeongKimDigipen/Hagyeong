@@ -71,15 +71,15 @@ function showDescription() {
   if (window.forLanguage === false) //Korean
   {
     nameEnglish.style.display = "none";
-    nameKorean.style.display = "inline";
+    nameKorean.style.display = "block";
     englishDescription.style.display = "none";
-    koreanDescription.style.display = "inline";
+    koreanDescription.style.display = "block";
   } 
   else //English 
   {
-    nameEnglish.style.display = "inline";
+    nameEnglish.style.display = "block";
     nameKorean.style.display = "none";
-    englishDescription.style.display = "inline";
+    englishDescription.style.display = "block";
     koreanDescription.style.display = "none"; //block
   }
 }
