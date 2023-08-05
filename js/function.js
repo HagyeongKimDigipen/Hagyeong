@@ -39,21 +39,25 @@ function changeLanguage()
   {
     console.log("It is False, It is Korean");
   }
-
-  showDescription();
 }
 
 $(function() {
-  $('.change-language a').bind('click', function(event) {
+  $('.change-language a').bind('click', function(event) 
+  {
       var $anchor = $(this);
+
       changeLanguage()
+
       if (window.forLanguage === true) 
       {
         $(this).text("한국어");
-      } else 
+      } 
+      else 
       {
         $(this).text("English");
       }
+
+      showDescription();
       event.preventDefault();
   });
 });
