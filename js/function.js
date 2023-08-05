@@ -43,7 +43,7 @@ function changeLanguage()
 
 function createLanguageButtons() 
 {
-  const languageButtonsDiv = document.getElementById("languageButtons");
+  changeLanguage()
   
   if (window.forLanguage === true) 
   {
@@ -61,7 +61,14 @@ function createLanguageButtons()
 $(function() {
   $('.change-language a').bind('click', function(event) {
       var $anchor = $(this);
-      createLanguageButtons();
+      changeLanguage()
+      if (window.forLanguage === true) 
+      {
+        $(this).text("한국어");
+      } else 
+      {
+        $(this).text("English");
+      }
       event.preventDefault();
   });
 });
