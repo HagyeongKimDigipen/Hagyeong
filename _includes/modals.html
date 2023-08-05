@@ -38,11 +38,20 @@
               </div>
             </div>
             {% endif %}
+            <div class="modal-content">
+              <!-- 영상 플레이어 -->
+              <div class="embed-responsive embed-responsive-16by9">
+                <video id="videoPlayer" width="640" height="360" controls>
+                  <source src="video/{{ page.video }}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
             <!-- Add the video tag here -->
-            <video width= "640" height="360" controls>
+            <!--<video width= "640" height="360" controls>
               <source src="video/{{ post.video }}" type="video/mp4">
               Your browser does not support the video tag.
-            </video>
+            </video>-->
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
