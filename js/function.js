@@ -2,8 +2,11 @@ function stopVideo(postModalId) {
   const videoPlayer = $("#" + postModalId).find("#videoPlayer")[0];
   videoPlayer.pause();
 
-    // Manually close the modal
-    $("#" + postModalId).modal("hide");
+  console.log("Id is " + postModalId);
+  console.log("full name is " + videoPlayer);
+
+  // Manually close the modal
+  $("#" + postModalId).modal("hide");
 }
 
 /*function stopVideos(button) {
