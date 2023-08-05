@@ -1,15 +1,22 @@
 function stopVideo() {
-    const videoPlayer = document.getElementById("videoPlayer");
-    videoPlayer.pause();
-  }
+  const videoPlayer = $("#videoPlayer")[0];
+  videoPlayer.pause();
+}
 
 function toggleButtonText() {
-    const buttonText = document.getElementById("buttonText");
-    if (buttonText.textContent === "Close") {
-      buttonText.textContent = "Okay";
-    } else {
-      buttonText.textContent = "Close";
-    }
-    
-    stopVideo();
+  const buttonText = $("#buttonText"); // Convert to jQuery object
+  if (buttonText.text() === "Close") {
+    buttonText.text("Okay");
+  } else {
+    buttonText.text("Close");
   }
+
+  stopVideo();
+}
+
+// Attach the click event to the button
+$(document).ready(function () {
+  $("#toggleButton").click(function () {
+    toggleButtonText();
+  });
+});
