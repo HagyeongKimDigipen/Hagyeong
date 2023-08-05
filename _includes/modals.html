@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <script src="/_includes/function.js"></script>
-</head>
-<body>
 <!-- Portfolio Modals -->
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
+    <script src="/_includes/function.js"></script>
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
         <div class="rl">
@@ -68,8 +63,8 @@
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal" onclick="stopVideo()"><i class="fa fa-times"></i>
-              Close</button>       
+            <button type="button" class="btn btn-default" data-dismiss="modal" onclick="toggleButtonText()"><i class="fa fa-times"></i>
+              <span id="buttonText">Close</span></button>       
           </div>
         </div>
       </div>
@@ -77,5 +72,3 @@
   </div>
 </div>
 {% endfor %}
-</body>
-</html>
