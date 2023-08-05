@@ -20,3 +20,9 @@ $(document).ready(function () {
     toggleButtonText();
   });
 });
+
+$(document).ready(function () {
+  $("#pauseVideo").click(function () {
+    stopVideo();
+  });
+});
