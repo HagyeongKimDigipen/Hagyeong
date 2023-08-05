@@ -41,23 +41,6 @@ function changeLanguage()
   }
 }
 
-function createLanguageButtons() 
-{
-  changeLanguage()
-  
-  if (window.forLanguage === true) 
-  {
-    const englishButton = document.createElement("button");
-    englishButton.textContent = "한국어";
-    languageButtonsDiv.appendChild(englishButton);
-  } else 
-  {
-    const koreanButton = document.createElement("button");
-    koreanButton.textContent = "English";
-    languageButtonsDiv.appendChild(koreanButton);
-  }
-}
-
 $(function() {
   $('.change-language a').bind('click', function(event) {
       var $anchor = $(this);
@@ -73,6 +56,22 @@ $(function() {
   });
 });
 
+function showDescription() {
+  const englishDescription = document.getElementById("english-description");
+  const koreanDescription = document.getElementById("korean-description");
+
+  if (window.forLanguage === false) {
+    englishDescription.style.display = "block";
+    koreanDescription.style.display = "none";
+  } else {
+    englishDescription.style.display = "none";
+    koreanDescription.style.display = "block";
+  }
+}
+
+$(document).ready(function () {
+  showDescription(); // set language to display at loading 
+});
 
 $(document).ready(function () {
   $("#languageChange1").click(function () {
