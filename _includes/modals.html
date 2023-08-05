@@ -30,7 +30,7 @@
             </div>
             {% endif %}
             <div class="embed-responsive embed-responsive-16by9">
-              <video id="videoPlayer-{{ post.modal-id }}" width="640" height="360" controls>
+              <video id="videoPlayer" width="640" height="360" controls>
                 <source src="video/{{ post.video }}" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -60,7 +60,7 @@
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" id="pauseVideo" data-dismiss="modal"><i class="fa fa-times"></i>
+            <button type="button" class="btn btn-default" onclick="stopVideo(this)" data-id="{{ post.modal-id }}" data-dismiss="modal"><i class="fa fa-times"></i>
               Close
             </button>       
           </div>

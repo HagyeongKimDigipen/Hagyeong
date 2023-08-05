@@ -1,9 +1,19 @@
 function stopVideo() {
-  const videoPlayer = $("#videoPlayer-{{ post.modal-id }}")[0];
+  const modalId = $(document).data("id");
+  const videoPlayer = $$("#portfolioModal-" + modalId).find("#videoPlayer")[0];
   videoPlayer.pause();
 
     // Manually close the modal
   $("#portfolioModal-{{ post.modal-id }}").modal("hide");
+}
+
+function stopVideo(button) {
+  const modalId = $(button).data("id");
+  const videoPlayer = $("#portfolioModal-" + modalId).find("#videoPlayer")[0];
+  videoPlayer.pause();
+
+  // Manually close the modal
+  $("#portfolioModal-" + modalId).modal("hide");
 }
 
 
