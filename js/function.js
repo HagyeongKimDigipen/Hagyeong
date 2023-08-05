@@ -58,6 +58,14 @@ function createLanguageButtons()
   }
 }
 
+$(function() {
+  $('.change-language a').bind('click', function(event) {
+      var $anchor = $(this);
+      createLanguageButtons();
+      event.preventDefault();
+  });
+});
+
 $(document).ready(function () {
   $("#languageChange1").click(function () {
     createLanguageButtons(); // change Language
