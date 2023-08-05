@@ -80,4 +80,14 @@
     </div>
   </div>
 </div>
+
+<script>
+  // DOM 로딩 후 실행될 함수 정의
+  document.addEventListener("DOMContentLoaded", function() {
+    function stopVideo() {
+      const videoPlayer = document.getElementById("videoPlayer");
+      videoPlayer.pause();
+    }
+  });
+</script>
 {% endfor %}
