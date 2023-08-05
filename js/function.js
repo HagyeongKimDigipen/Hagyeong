@@ -39,6 +39,8 @@ function changeLanguage()
   {
     console.log("It is False, It is Korean");
   }
+
+  showDescription();
 }
 
 $(function() {
