@@ -59,6 +59,7 @@ $(function() {
 });
 
 function showDescription() {
+  const nameEnglish = document.getElementById("name-english");
   const nameKorean = document.getElementById("name-korean");
   const englishDescription = document.getElementById("english-description");
   const koreanDescription = document.getElementById("korean-description");
@@ -67,15 +68,15 @@ function showDescription() {
   {
     nameEnglish.style.display = "none";
     nameKorean.style.display = "inline";
-    englishDescription.style.display = "block";
-    koreanDescription.style.display = "none";
+    englishDescription.style.display = "none";
+    koreanDescription.style.display = "inline";
   } 
   else //English 
   {
     nameEnglish.style.display = "inline";
     nameKorean.style.display = "none";
-    englishDescription.style.display = "none";
-    koreanDescription.style.display = "block";
+    englishDescription.style.display = "inline";
+    koreanDescription.style.display = "none"; //block
   }
 }
 
