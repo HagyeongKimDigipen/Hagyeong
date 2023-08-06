@@ -107,6 +107,10 @@ $(function() {
       }
 
       //showDescription();
+
+      console.log(workDate.text);
+      console.log($("#workDateForLanguage").text);
+      
       event.preventDefault();
   });
 });
