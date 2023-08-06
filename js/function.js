@@ -48,7 +48,7 @@ $(function() {
     console.log("change the word!!");
 
     const postModalId = $(this).attr('href').substring(1);
-    const description = $("#" + postModalId).find("#descriptionForLanguage")[0];
+    const description = $("#" + postModalId).find("#descriptionForLanguage");
 
     if (window.forLanguage === true)  //english use
     {
