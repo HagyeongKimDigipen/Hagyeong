@@ -44,6 +44,8 @@ function changeLanguage()
 $(function() {
   $('.modalLanguage a').bind('click', function(event) 
   {
+      console.log("clickkkkkk!!");
+
       var $anchor = $(this);
 
       const postModalId = $(this).data("modal-id");
@@ -55,6 +57,7 @@ $(function() {
         if(postModalId == "portfolioModal-1")
         {
           description.text("hihi");
+          console.log("it worksss!!! ENG");
         }
         else if(postModalId == "portfolioModal-2")
         {
@@ -108,6 +111,7 @@ $(function() {
         if(postModalId == "portfolioModal-1")
         {
           description.text("더 자세한 설명이 추가 될 예정입니다.");
+          console.log("it worksss!!! KOR");
         }
         else if(postModalId == "portfolioModal-2")
         {
