@@ -41,7 +41,11 @@
               Your browser does not support the video tag.
             </video>-->
             {% if post.description %}
-            <p>{{ post.description }}</p>
+              {% if window.forLanguage %}
+                <p>{{ post.description }}</p>
+              {% else %}  
+                <p>{{ post.descriptionKor }}</p>
+              {% endif %}
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.role %}
