@@ -111,7 +111,7 @@ $(function() {
   });
 });
 
-function showDescription() {
+/*function showDescription() {
   //const nameEnglish = document.getElementById("name-english");
   //const nameKorean = document.getElementById("name-korean");
   const englishDescription = document.getElementById("english-description");
@@ -137,7 +137,7 @@ function showDescription() {
     englishDescriptionSchool.style.display = "inline-block"
     koreanDescriptionSchool.style.display = "none"
   }
-}
+}*/
 
 $(document).ready(function () {
   showDescription(); // set language to display at loading 
