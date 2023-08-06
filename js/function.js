@@ -2,7 +2,7 @@ function stopVideo(postModalId) {
   const videoPlayer = $("#" + postModalId).find("#videoPlayer")[0];
   videoPlayer.pause();
 
-  //onsole.log("Id is " + postModalId);
+  console.log("Id is " + postModalId);
   //console.log("full name is " + videoPlayer);
 
   // Manually close the modal
@@ -46,7 +46,7 @@ $(function() {
   {
       var $anchor = $(this);
       const postModalId = $(this).data("modal-id");
-      console.debug("modal ID is " + postModalId);
+      //console.debug("modal ID is " + postModalId);
 
       changeLanguage()
 
