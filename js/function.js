@@ -41,6 +41,21 @@ function changeLanguage()
   }
 }
 
+$(function() {
+  // 포트폴리오 항목을 클릭했을 때 실행될 함수
+  $('.portfolio-link').on('click', function(event) {
+    // 이벤트 발생 시 기본 동작 방지
+    event.preventDefault();
+    console.log("clickkkkkk!!");
+    // 해당 포트폴리오 항목의 modal-id 값을 가져옵니다.
+    const postModalId = $(this).attr('href').substring(1);
+
+    // TODO: postModalId를 기반으로 원하는 동작을 수행합니다.
+    console.log('포트폴리오 항목 클릭 - modal-id:', postModalId);
+    // 다른 작업을 여기에 추가하면 됩니다.
+  });
+});
+
 $('.modal').on('shown.bs.modal', function () {
   $('.modalLanguage a').on('click', function(event) 
   {
