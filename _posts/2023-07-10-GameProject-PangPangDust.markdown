@@ -20,6 +20,6 @@ video: PangPangDust.mp4
 alt: image-alt
 project-date: March 2019 - June 2019
 role: Producer
-category: Game Project
+category: Team Game Project
 description: More detailed descriptions will be added soon.
 ---

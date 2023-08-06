@@ -13,6 +13,6 @@ video: lighting.mp4
 alt: image-alt
 project-date: September 2021 - November 2020
 role: Solo Proejct
-category: Academic Graphics Engine
+category: Graphics Engine
 description: More detailed descriptions will be added soon.
 ---

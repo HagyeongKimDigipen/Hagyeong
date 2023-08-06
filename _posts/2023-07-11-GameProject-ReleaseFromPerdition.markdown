@@ -19,7 +19,7 @@ img:
 video: ReleaseFromPerdition_mid.mp4
 alt: image-alt
 project-date: September 2021 - April 2022
-role: Programmer
-category: Game Project
+role: GamePlay Programmer
+category: Team Game Project
 description: More detailed descriptions will be added soon.
 ---

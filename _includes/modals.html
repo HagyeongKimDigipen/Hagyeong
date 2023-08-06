@@ -47,17 +47,17 @@
             <ul class="list-inline item-details">
               {% if post.role %}
               <li>Role:
-                <strong>{{ post.role }}</strong>
+                <strong id="roleForLanguage">{{ post.role }}</strong>
               </li>
               {% endif %}
               {% if post.project-date %}
               <li>Date:
-                <strong>{{ post.project-date }}</strong>
+                <strong id="dateForLanguage">{{ post.project-date }}</strong>
               </li>
               {% endif %}
               {% if post.category %}
               <li>Category:
-                <strong>{{ post.category }}</strong>
+                <strong id="categoryForLanguage">{{ post.category }}</strong>
               </li>
               {% endif %}
             </ul>

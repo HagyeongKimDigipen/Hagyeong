@@ -48,7 +48,11 @@ $(function() {
     console.log("change the word!!");
 
     const postModalId = $(this).attr('href').substring(1);
+
     const description = $("#" + postModalId).find("#descriptionForLanguage");
+    const role = $("#" + postModalId).find("#roleForLanguage");
+    const date = $("#" + postModalId).find("#dateForLanguage");
+    const category = $("#" + postModalId).find("#categoryForLanguage");
 
     if (window.forLanguage === true)  //english use
     {
@@ -56,51 +60,86 @@ $(function() {
       if(postModalId == "portfolioModal-1")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
-        //console.log("it worksss!!! ENG");
+        role.text("Producer");
+        date.text("September 2019 - June 2020");
+        category.text("Team Game Project");
       }
       else if(postModalId == "portfolioModal-2")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("GamePlay Programmer");
+        date.text("September 2021 - April 2022");
+        category.text("Team Game Project");
       }
       else if(postModalId == "portfolioModal-3")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Producer");
+        date.text("March 2019 - June 2019");
+        category.text("Team Game Project");
       }
       else if(postModalId == "portfolioModal-4")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Solo Proejct");
+        date.text("March 2020 - August 2020");
+        category.text("Academic Game Project");
       }
       else if(postModalId == "portfolioModal-5")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Solo Proejct");
+        date.text("September 2021 - November 2021");
+        category.text("Graphics Engine");
       }
       else if(postModalId == "portfolioModal-6")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Solo Proejct");
+        date.text("September 2021 - November 2021");
+        category.text("Graphics Engine");
       }
       else if(postModalId == "portfolioModal-7")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Solo Proejct");
+        date.text("March 2020 - August 2020");
+        category.text("Graphics Engine");
       }
       else if(postModalId == "portfolioModal-8")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Solo Proejct");
+        date.text("March 2020 - August 2020");
+        category.text("Graphics Engine");
       }
       else if(postModalId == "portfolioModal-9")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Programmer (2 member)");
+        date.text("September 2022 - April 2023");
+        category.text("AR Project");
       }
       else if(postModalId == "portfolioModal-10")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Programmer (2 member)");
+        date.text("May 2022 - August 2022");
+        category.text("Mobile Game Project");
       }
       else if(postModalId == "portfolioModal-11")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Programmer");
+        date.text("September 2022 - December 2022");
+        category.text("Portable Game Project");
       }
       else if(postModalId == "portfolioModal-12")
       {
         description.text(postModalId + "More detailed descriptions will be added soon.");
+        role.text("Undefined");
+        date.text("Undefined");
+        category.text("Undefined");
       }
       //end description
     } 
@@ -111,50 +150,86 @@ $(function() {
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
         console.log("it worksss!!! KOR");
+        role.text("프로듀서");
+        date.text("2019년 9월 - 2020년 6월");
+        category.text("팀 게임 프로젝트");
       }
       else if(postModalId == "portfolioModal-2")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("게임플레이 프로그래머");
+        date.text("2021년 9월 - 2022년 4월");
+        category.text("팀 게임 프로젝트");
       }
       else if(postModalId == "portfolioModal-3")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("프로듀서");
+        date.text("2019년 3월 - 2019년 6월");
+        category.text("팀 게임 프로젝트");
       }
       else if(postModalId == "portfolioModal-4")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("1인 프로젝트");
+        date.text("2020년 3월 - 2020년 9월");
+        category.text("아카데믹 게임 프로젝트");
       }
       else if(postModalId == "portfolioModal-5")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("1인 프로젝트");
+        date.text("2021년 9월 - 2021년 11월");
+        category.text("그래픽 프로젝트");
       }
       else if(postModalId == "portfolioModal-6")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("1인 프로젝트");
+        date.text("2021년 9월 - 2020년 11월");
+        category.text("그래픽 프로젝트");
       }
       else if(postModalId == "portfolioModal-7")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("1인 프로젝트");
+        date.text("2020년 3월 - 2020년 8월");
+        category.text("그래픽 프로젝트");
       }
       else if(postModalId == "portfolioModal-8")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("1인 프로젝트");
+        date.text("2020sus 3dnjf - 2020sus 8월");
+        category.text("그래픽 프로젝트");
       }
       else if(postModalId == "portfolioModal-9")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("2인 프로젝트");
+        date.text("2022년 9월 - 2023년 4월");
+        category.text("AR 프로젝트");
       }
       else if(postModalId == "portfolioModal-10")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("2인 프로젝트");
+        date.text("2022년 5월 - 2022년 8월");
+        category.text("모바일 게임 프로젝트");
       }
       else if(postModalId == "portfolioModal-11")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("프로그래머 (3인 프로젝트)");
+        date.text("2022년 9월 - 2022년 12월");
+        category.text("휴대용 게임 프로젝트");
       }
       else if(postModalId == "portfolioModal-12")
       {
         description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
+        role.text("미정");
+        date.text("미정");
+        category.text("미정");
       }
     }
   });

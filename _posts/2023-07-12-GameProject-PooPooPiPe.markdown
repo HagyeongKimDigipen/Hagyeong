@@ -16,6 +16,6 @@ video: PooPooPipe.mp4
 alt: image-alt
 project-date: September 2019 - June 2020
 role: Producer
-category: Game Project
-description: More detailed descriptions will be added soon <br/><br/><br/> check 80
+category: Team Game Project
+description: More detailed descriptions will be added soon <br/><br/><br/> check 81
 ---

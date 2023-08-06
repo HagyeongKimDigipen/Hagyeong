@@ -11,8 +11,8 @@ img:
  - graphic2/graphic2_3.jpg
 video: refraction.mp4
 alt: image-alt
-project-date: September 2021 - November 2020
+project-date: September 2021 - November 2021
 role: Solo Proejct
-category: Academic Graphics Engine
+category: Graphics Engine
 description: More detailed descriptions will be added soon.
 ---
