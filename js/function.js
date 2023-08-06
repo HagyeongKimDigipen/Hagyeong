@@ -48,13 +48,18 @@ $(function() {
 
       changeLanguage()
 
-      if (window.forLanguage === true) 
+      const nameEnglish = $("#name-english");
+      const nameKorean = $("name-korean");
+
+      if (window.forLanguage === true)  //english use
       {
         $(this).text("한국어");
+        nameEnglish.text("Hagyeong Kim");
       } 
-      else 
+      else  //korean use
       {
         $(this).text("English");
+        nameEnglish.text("김하경");
       }
 
       showDescription();
@@ -63,8 +68,8 @@ $(function() {
 });
 
 function showDescription() {
-  const nameEnglish = document.getElementById("name-english");
-  const nameKorean = document.getElementById("name-korean");
+  //const nameEnglish = document.getElementById("name-english");
+  //const nameKorean = document.getElementById("name-korean");
   const englishDescription = document.getElementById("english-description");
   const koreanDescription = document.getElementById("korean-description");
   const englishDescriptionSchool = document.getElementById("english-description-school");
@@ -72,8 +77,8 @@ function showDescription() {
 
   if (window.forLanguage === false) //Korean
   {
-    nameEnglish.style.display = "none";
-    nameKorean.style.display = "inline-block";
+    //nameEnglish.style.display = "none";
+    //nameKorean.style.display = "inline-block";
     englishDescription.style.display = "none";
     koreanDescription.style.display = "inline-block";
     englishDescriptionSchool.style.display = "inline-block"
@@ -81,8 +86,8 @@ function showDescription() {
   } 
   else //English 
   {
-    nameEnglish.style.display = "inline-block";
-    nameKorean.style.display = "none";
+    //nameEnglish.style.display = "inline-block";
+    //nameKorean.style.display = "none";
     englishDescription.style.display = "inline-block";
     koreanDescription.style.display = "none"; //block
     englishDescriptionSchool.style.display = "inline-block"
