@@ -45,6 +45,8 @@ $(function() {
   $('.change-language a').bind('click', function(event) 
   {
       var $anchor = $(this);
+      const postModalId = $(this).data("modal-id");
+      console.debug("modal ID is " + postModalId);
 
       changeLanguage()
 
@@ -65,7 +67,8 @@ $(function() {
       const workDescription = $("#workDescriptionForLanguage");
       const workDate = $("#workDateForLanguage");
 
-      //const descriptionOutput = document.getElementById("descriptionForLanguage");
+      const descriptionEng = $("#descriptionForLanguageEng");
+      const descriptionKor = $("#descriptionForLanguageKor");
 
       if (window.forLanguage === true)  //english use
       {
@@ -91,6 +94,69 @@ $(function() {
         
         //$(".descriptionForLanguageEng").show();
         //$(".descriptionForLanguageKor").hide();
+
+        //start to description
+        if(postModalId == "portfolioModal-1")
+        {
+          descriptionEng.text("hihi");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-2")
+        {
+          descriptionEng.text("hihi2");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-3")
+        {
+          descriptionEng.text("hihi3");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-4")
+        {
+          descriptionEng.text("hihi4");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-5")
+        {
+          descriptionEng.text("hihi5");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-6")
+        {
+          descriptionEng.text("hihi6");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-7")
+        {
+          descriptionEng.text("hihi7");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-8")
+        {
+          descriptionEng.text("hihi8");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-9")
+        {
+          descriptionEng.text("hihi9");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-10")
+        {
+          descriptionEng.text("hihi10");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-11")
+        {
+          descriptionEng.text("hihi11");
+          descriptionKor.text("");
+        }
+        else if(postModalId == "portfolioModal-12")
+        {
+          descriptionEng.text("hihi12");
+          descriptionKor.text("");
+        }
+        //end description
       } 
       else  //korean use
       {
@@ -112,8 +178,68 @@ $(function() {
         workDescription.text("음악 학원에서 피아노 보조 강사로 일했습니다, 유치부 부터 중등부까지 많은 학생들의 방과후 활동을 지도하였고 부가적으로 학원의 업무를 보조 하였습니다.");
         workDate.text("2020 - 2021");
 
-        //$(".descriptionForLanguageEng").hide();
-        //$(".descriptionForLanguageKor").show();
+        //start to description
+        if(postModalId == "portfolioModal-1")
+        {
+          descriptionKor.text("더 자세한 설명이 추가 될 예정입니다.");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-2")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-3")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-4")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-5")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-6")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-7")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-8")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-9")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-10")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-11")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        else if(postModalId == "portfolioModal-12")
+        {
+          descriptionKor.text("byebye");
+          descriptionEng.text("");
+        }
+        //end description
       }
 
       //showDescription();

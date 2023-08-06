@@ -15,4 +15,5 @@ project-date: September 2022 - December 2022
 role: Programmer
 category: Portable Game Project
 description: More detailed descriptions will be added soon.
+descriptionKor: 
 ---

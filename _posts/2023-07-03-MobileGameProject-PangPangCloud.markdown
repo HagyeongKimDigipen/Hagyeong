@@ -18,4 +18,5 @@ project-date: May 2022 - August 2022
 role: Programmer (2 member)
 category: Mobile Game Project
 description: More detailed descriptions will be added soon.
+descriptionKor: 
 ---

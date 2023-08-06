@@ -21,4 +21,5 @@ project-date: September 2022 - April 2023
 role: Programmer (2 member)
 category: AR Project
 description: More detailed descriptions will be added soon.
+descriptionKor: 
 ---

@@ -21,5 +21,6 @@ alt: image-alt
 project-date: September 2021 - April 2022
 role: Programmer
 category: Game Project
-description: More detailed descriptions will be added soon
+description: More detailed descriptions will be added soon.
+descriptionKor: 
 ---

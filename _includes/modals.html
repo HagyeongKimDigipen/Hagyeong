@@ -42,14 +42,10 @@
             </video>-->
             <div id="markupLanguage"></div>
             {% if post.description %}
-              <p>{{ site.title }}</p>
-              <{% if site.title == "Hagyeong Kim" %}
-                <!--<p class="descriptionForLanguageEng">{{ post.description }}</p>-->
-                <p>{{ post.description }}</p>
-              {% else %}
-                <!--<p class="descriptionForLanguageKor">{{ post.descriptionKor }}</p>-->
-                <p>{{ post.descriptionKor }}</p>
-              {% endif %}
+              <p class="descriptionForLanguageEng">{{ post.description }}</p>
+              <!--<p>{{ post.description }}</p>-->
+              <p class="descriptionForLanguageKor">{{ post.descriptionKor }}</p>
+              <!--<p>{{ post.descriptionKor }}</p>-->
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.role %}
