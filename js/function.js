@@ -55,15 +55,15 @@ $(function() {
 
       const BSEdu = $("#BSForLanguage");
       const eduName = $("#SchoolForLanguage");
-      const eduDate = $("#SchoolDateForLanguage");
+      const eduDate = $("#BSForLanguage").find("#SchoolDateForLanguage");
 
       const BSEduKor = $("#BSForLanguageKor");
       const eduNameKor = $("#SchoolForLanguageKor");
-      const eduDateKor = $("#SchoolDateForLanguageKor");
+      const eduDateKor = $("#BSForLanguageKor").find("#SchoolDateForLanguageKor");
 
       const work = $("#workForLanguage");
       const workDescription = $("#workDescriptionForLanguage");
-      const workDate = $("#workDateForLanguage");
+      const workDate = $("#workForLanguage").find("#workDateForLanguage");
 
       if (window.forLanguage === true)  //english use
       {
@@ -97,8 +97,8 @@ $(function() {
         eduName.text("Digipen Institue of Technology");
         eduDate.text("2018 - 2023");
 
-        BSEduKor.text("계명대학교");
-        eduNameKor.text("디지펜게임공학과");
+        BSEduKor.text("디지펜게임공학과");
+        eduNameKor.text("계명대학교");
         eduDateKor.text("2018 - 2023");
 
         work.text("미키 음악 학원");
