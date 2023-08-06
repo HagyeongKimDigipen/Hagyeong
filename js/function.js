@@ -55,15 +55,15 @@ $(function() {
 
       const BSEdu = $("#BSForLanguage");
       const eduName = $("#SchoolForLanguage");
-      const eduDate = $("#BSForLanguage").find("#SchoolDateForLanguage");
+      const eduDate = $("#SchoolDateForLanguage");
 
       const BSEduKor = $("#BSForLanguageKor");
       const eduNameKor = $("#SchoolForLanguageKor");
-      const eduDateKor = $("#BSForLanguageKor").find("#SchoolDateForLanguageKor");
+      const eduDateKor = $("#SchoolDateForLanguageKor");
 
       const work = $("#workForLanguage");
       const workDescription = $("#workDescriptionForLanguage");
-      const workDate = $("#workForLanguage").find("#workDateForLanguage");
+      const workDate = $("#workDateForLanguage");
 
       //const descriptionOutput = document.getElementById("descriptionForLanguage");
 
