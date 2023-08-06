@@ -249,7 +249,7 @@ $(function() {
 
       const BSEdu = $("#BSForLanguage");
       const eduName = $("#SchoolForLanguage");
-      const eduDate = $("#BSForLanguage span");
+      const eduDate = $("#SchoolForLanguage span");
 
       const BSEduKor = $("#BSForLanguageKor");
       const eduNameKor = $("#SchoolForLanguageKor");
