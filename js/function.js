@@ -57,17 +57,17 @@ $(function() {
 
       const BSEdu = $("#BSForLanguage");
       const eduName = $("#SchoolForLanguage");
-      const eduDate = $("#SchoolDateForLanguage");
+      const eduDate = $("#BSForLanguage span");
 
       const BSEduKor = $("#BSForLanguageKor");
       const eduNameKor = $("#SchoolForLanguageKor");
-      const eduDateKor = $("#SchoolDateForLanguageKor");
+      const eduDateKor = $("#SchoolForLanguageKor span");
 
       const work = $("#workForLanguage");
       const workDescription = $("#workDescriptionForLanguage");
-      const workDate = $("#workDateForLanguage");
+      const workDate = $("#workForLanguage span");
 
-      const description = $("#descriptionForLanguageEng");
+      const description = $("#descriptionForLanguage");
 
       if (window.forLanguage === true)  //english use
       {
