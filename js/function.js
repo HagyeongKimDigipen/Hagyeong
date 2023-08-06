@@ -139,15 +139,15 @@ $(function() {
   }
 }*/
 
-$(document).ready(function () {
-  showDescription(); // set language to display at loading 
-});
+//$(document).ready(function () {
+//  showDescription(); // set language to display at loading 
+//});
 
-$(document).ready(function () {
-  $("#languageChange1").click(function () {
-    changeLanguage(); // change Language
-  });
-});
+//$(document).ready(function () {
+//  $("#languageChange1").click(function () {
+//    changeLanguage(); // change Language
+//  });
+//});
 
 /*window.forLanguage = function() {
   console.log("This is a global function!");
