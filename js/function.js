@@ -83,7 +83,7 @@ $(function() {
 
         work.text("Mickey Music Academy");
         workDescription.text("I worked as a piano assistant instructor at a music academy, instructing numerous students ranging from kindergarten to middle school. <br>Additionally, I assisted with various administrative tasks at the academy.");
-        workDate.text("2020 - 2021")
+        workDate.text("2020 - 2021");
       } 
       else  //korean use
       {
@@ -110,7 +110,7 @@ $(function() {
 
       console.log(workDate.text);
       console.log($("#workDateForLanguage").text);
-      
+
       event.preventDefault();
   });
 });
