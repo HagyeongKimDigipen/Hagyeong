@@ -46,8 +46,6 @@ $(function() {
   {
       console.log("clickkkkkk!!");
 
-      var $anchor = $(this);
-
       const postModalId = $(this).data("modal-id");
       const description = $("#descriptionForLanguage");
 
