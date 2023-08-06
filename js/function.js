@@ -47,7 +47,8 @@ $(document).ready(function() {
   });
 });
 
-$('.modal').on('shown.bs.modal', function () {
+$(function() {
+  $('.modal').on('shown.bs.modal', function () {
   //$('.modalLanguage a').on('click', function(event) 
   //{
       console.log("clickkkkkk!!");
@@ -163,7 +164,7 @@ $('.modal').on('shown.bs.modal', function () {
         }
       }
       //event.preventDefault();
-  //});
+  });
 });
 
 $(function() {
