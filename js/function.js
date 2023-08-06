@@ -65,6 +65,8 @@ $(function() {
       const workDescription = $("#workDescriptionForLanguage");
       const workDate = $("#workForLanguage").find("#workDateForLanguage");
 
+      const descriptionOutput = document.getElementById("descriptionForLanguage");
+
       if (window.forLanguage === true)  //english use
       {
         $(this).text("한국어");
@@ -84,6 +86,8 @@ $(function() {
         work.text("Mickey Music Academy");
         workDescription.text("I worked as a piano assistant instructor at a music academy, instructing numerous students ranging from kindergarten to middle school. <br>Additionally, I assisted with various administrative tasks at the academy.");
         workDate.text("2020 - 2021");
+
+        descriptionOutput.textContent = "{{ post.description }}";
       } 
       else  //korean use
       {
@@ -104,17 +108,19 @@ $(function() {
         work.text("미키 음악 학원");
         workDescription.text("음악 학원에서 피아노 보조 강사로 일했습니다, 유치부 부터 중등부까지 많은 학생들의 방과후 활동을 지도하였고 부가적으로 학원의 업무를 보조 하였습니다.");
         workDate.text("2020 - 2021");
+
+        descriptionOutput.textContent = "{{ post.descriptionKor }}";
       }
 
       //showDescription();
 
-      console.log(workDate);
-      console.log(workDate.text);
-      console.log($("#workDateForLanguage").text);
+      console.log("workDate:" + workDate);
+      console.log("workDate#" + $("#workDateForLanguage"));
 
       event.preventDefault();
   });
 });
+
 
 /*function showDescription() {
   //const nameEnglish = document.getElementById("name-english");
