@@ -41,16 +41,9 @@ function changeLanguage()
   }
 }
 
-$(document).ready(function() {
+$('.modal').on('shown.bs.modal', function () {
   $('.modalLanguage a').on('click', function(event) 
   {
-  });
-});
-
-$(function() {
-  $('.modal').on('shown.bs.modal', function () {
-  //$('.modalLanguage a').on('click', function(event) 
-  //{
       console.log("clickkkkkk!!");
 
       const postModalId = $(this).data("modal-id");
