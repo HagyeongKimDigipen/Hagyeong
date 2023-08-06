@@ -44,6 +44,12 @@ function changeLanguage()
 $(document).ready(function() {
   $('.modalLanguage a').on('click', function(event) 
   {
+  });
+});
+
+$('.modal').on('shown.bs.modal', function () {
+  //$('.modalLanguage a').on('click', function(event) 
+  //{
       console.log("clickkkkkk!!");
 
       const postModalId = $(this).data("modal-id");
@@ -156,8 +162,8 @@ $(document).ready(function() {
           description.text("byebye");
         }
       }
-      event.preventDefault();
-  });
+      //event.preventDefault();
+  //});
 });
 
 $(function() {
