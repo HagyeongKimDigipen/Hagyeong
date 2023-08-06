@@ -41,8 +41,8 @@ function changeLanguage()
   }
 }
 
-$(function() {
-  $('.modalLanguage a').bind('click', function(event) 
+$(document).ready(function() {
+  $('.modalLanguage a').on('click', function(event) 
   {
       console.log("clickkkkkk!!");
 
