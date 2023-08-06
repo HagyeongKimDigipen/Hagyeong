@@ -67,8 +67,7 @@ $(function() {
       const workDescription = $("#workDescriptionForLanguage");
       const workDate = $("#workDateForLanguage");
 
-      const descriptionEng = $("#descriptionForLanguageEng");
-      const descriptionKor = $("#descriptionForLanguageKor");
+      const description = $("#descriptionForLanguageEng");
 
       if (window.forLanguage === true)  //english use
       {
@@ -98,63 +97,51 @@ $(function() {
         //start to description
         if(postModalId == "portfolioModal-1")
         {
-          descriptionEng.text("hihi");
-          descriptionKor.text("");
+          description.text("hihi");
         }
         else if(postModalId == "portfolioModal-2")
         {
-          descriptionEng.text("hihi2");
-          descriptionKor.text("");
+          description.text("hihi2");
         }
         else if(postModalId == "portfolioModal-3")
         {
-          descriptionEng.text("hihi3");
-          descriptionKor.text("");
+          description.text("hihi3");
         }
         else if(postModalId == "portfolioModal-4")
         {
-          descriptionEng.text("hihi4");
-          descriptionKor.text("");
+          description.text("hihi4");
         }
         else if(postModalId == "portfolioModal-5")
         {
-          descriptionEng.text("hihi5");
-          descriptionKor.text("");
+          description.text("hihi5");
         }
         else if(postModalId == "portfolioModal-6")
         {
-          descriptionEng.text("hihi6");
-          descriptionKor.text("");
+          description.text("hihi6");
         }
         else if(postModalId == "portfolioModal-7")
         {
-          descriptionEng.text("hihi7");
-          descriptionKor.text("");
+          description.text("hihi7");
         }
         else if(postModalId == "portfolioModal-8")
         {
-          descriptionEng.text("hihi8");
-          descriptionKor.text("");
+          description.text("hihi8");
         }
         else if(postModalId == "portfolioModal-9")
         {
-          descriptionEng.text("hihi9");
-          descriptionKor.text("");
+          description.text("hihi9");
         }
         else if(postModalId == "portfolioModal-10")
         {
-          descriptionEng.text("hihi10");
-          descriptionKor.text("");
+          description.text("hihi10");
         }
         else if(postModalId == "portfolioModal-11")
         {
-          descriptionEng.text("hihi11");
-          descriptionKor.text("");
+          description.text("hihi11");
         }
         else if(postModalId == "portfolioModal-12")
         {
-          descriptionEng.text("hihi12");
-          descriptionKor.text("");
+          description.text("hihi12");
         }
         //end description
       } 
@@ -181,74 +168,62 @@ $(function() {
         //start to description
         if(postModalId == "portfolioModal-1")
         {
-          descriptionKor.text("더 자세한 설명이 추가 될 예정입니다.");
-          descriptionEng.text("");
+          description.text("더 자세한 설명이 추가 될 예정입니다.");
         }
         else if(postModalId == "portfolioModal-2")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-3")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-4")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-5")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-6")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-7")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-8")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-9")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-10")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-11")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         else if(postModalId == "portfolioModal-12")
         {
-          descriptionKor.text("byebye");
-          descriptionEng.text("");
+          description.text("byebye");
         }
         //end description
       }
 
       //showDescription();
 
-      console.log("workDate:" + work);
-      console.log("workDate#" + $("#workDateForLanguage"));
+      //console.log("workDate:" + work);
+      //console.log("workDate#" + $("#workDateForLanguage"));
 
-      console.log("work:" + eduDate);
-      console.log("work#" + $("#workForLanguage"));
+      //console.log("work:" + eduDate);
+      //console.log("work#" + $("#workForLanguage"));
 
       event.preventDefault();
   });

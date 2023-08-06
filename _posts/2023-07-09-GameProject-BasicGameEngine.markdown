@@ -15,5 +15,4 @@ project-date: March 2020 - August 2020
 role: Solo Proejct
 category: Academic Game Project
 description: More detailed descriptions will be added soon.
-descriptionKor: 
 ---

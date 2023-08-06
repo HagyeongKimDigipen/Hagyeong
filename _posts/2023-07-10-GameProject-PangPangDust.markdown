@@ -22,5 +22,4 @@ project-date: March 2019 - June 2019
 role: Producer
 category: Game Project
 description: More detailed descriptions will be added soon.
-descriptionKor: 
 ---

@@ -15,5 +15,4 @@ project-date: September 2021 - November 2020
 role: Solo Proejct
 category: Academic Graphics Engine
 description: More detailed descriptions will be added soon.
-descriptionKor: 
 ---

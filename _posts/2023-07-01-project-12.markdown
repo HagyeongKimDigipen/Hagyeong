@@ -12,5 +12,4 @@ project-date: March 2023 - Agust 2023
 role: Programmer
 category: Comming Soon
 description: More detailed descriptions will be added soon.
-descriptionKor: 
 ---
