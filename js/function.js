@@ -48,60 +48,59 @@ $(function() {
     console.log("change the word!!");
 
     const postModalId = $(this).attr('href').substring(1);
-    
-    const description = $("#descriptionForLanguage");
+    const description = $("#" + postModalId).find("#descriptionForLanguage")[0];
 
     if (window.forLanguage === true)  //english use
     {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text("hihi");
-        console.log("it worksss!!! ENG");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
+        //console.log("it worksss!!! ENG");
       }
       else if(postModalId == "portfolioModal-2")
       {
-        description.text("hihi2");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-3")
       {
-        description.text("hihi3");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-4")
       {
-        description.text("hihi4");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-5")
       {
-        description.text("hihi5");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-6")
       {
-        description.text("hihi6");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-7")
       {
-        description.text("hihi7");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-8")
       {
-        description.text("hihi8");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-9")
       {
-        description.text("hihi9");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-10")
       {
-        description.text("hihi10");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-11")
       {
-        description.text("hihi11");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       else if(postModalId == "portfolioModal-12")
       {
-        description.text("hihi12");
+        description.text(postModalId + "More detailed descriptions will be added soon.");
       }
       //end description
     } 
@@ -110,52 +109,52 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text("더 자세한 설명이 추가 될 예정입니다.");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
         console.log("it worksss!!! KOR");
       }
       else if(postModalId == "portfolioModal-2")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-3")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-4")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-5")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-6")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-7")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-8")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-9")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-10")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-11")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
       else if(postModalId == "portfolioModal-12")
       {
-        description.text("byebye");
+        description.text(postModalId + "더 자세한 설명이 추가 될 예정입니다.");
       }
     }
   });
