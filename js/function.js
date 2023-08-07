@@ -40,7 +40,7 @@ portfolioItems.forEach(item =>
   //const icons = modalIdElement.find("img");
 
   item.addEventListener("mouseover", () => {
-    debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
+    //debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
     if (window.forLanguage === true)  //english use
     {
       if(modalId == "#portfolioModal-1")
