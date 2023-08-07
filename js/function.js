@@ -267,14 +267,8 @@ $(function() {
       const workDescription = $("#workDescriptionForLanguage");
       const workDate = $("#workDateForLanguage");
 
-
-
-      const description = $("#" + postModalId).find("#descriptionForLanguage");
-      const role = $("#" + postModalId).find("#roleForLanguage");
-
-
-      const postModalId = $(this).attr('href').substring(1);
-      const modalIdElement = $("#" + postModalId).find("getModalId");
+      const postModalIds = $(this).attr('href').substring(1);
+      const modalIdElement = $("#" + postModalIds).find("getModalId");
       const modalId = modalIdElement.getAttribute("data-modal-id");
       const icons = modalIdElement.querySelectorAll("img");
 
