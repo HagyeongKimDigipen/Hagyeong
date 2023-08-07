@@ -249,15 +249,15 @@ $(function() {
 
       const BSEdu = $("#BSForLanguage");
       const eduName = $("#SchoolForLanguage");
-      const eduDate = $("#SchoolForLanguage span");
+      const eduDate = $("#schoolDateFoLanguager");
 
       const BSEduKor = $("#BSForLanguageKor");
       const eduNameKor = $("#SchoolForLanguageKor");
-      const eduDateKor = $("#SchoolForLanguageKor span");
+      const eduDateKor = $("#schoolDateFoLanguagerKor");
 
       const work = $("#workForLanguage");
       const workDescription = $("#workDescriptionForLanguage");
-      const workDate = $("#workForLanguage span");
+      const workDate = $("#workDateForLanguage");
 
       if (window.forLanguage === true)  //english use
       {
