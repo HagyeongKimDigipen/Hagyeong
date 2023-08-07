@@ -32,17 +32,17 @@ window.forLanguage = true; // true = English false = Korean
 
 const portfolioItems = document.querySelectorAll(".portfolio-item");
 
-portfolioItems.forEach(item => 
+portfolioItems.forEach(items => 
 {
   const item = document.querySelector(".portfolio-link");
-  const modalId = item.querySelector(".portfolio-link").getAttribute("href");
+  const modalId = items.querySelector(".portfolio-link").getAttribute("href");
   const postModalIds = $(item).attr('href').substring(1);
 
   //const modalIdElement = $(modalId).find("#getModalId");
   const modalIdElement = $("#" + postModalIds).find("#getModalId");
   const icons = modalIdElement.find("img");
 
-  item.addEventListener("mouseover", () => {
+  items.addEventListener("mouseover", () => {
     debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
     if (window.forLanguage === true)  //english use
     {
