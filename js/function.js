@@ -67,7 +67,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 13");
+        description.text(postModalId + "More detailed descriptions will be added soon. 14");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
@@ -270,12 +270,7 @@ $(function() {
 
       const modalIdElement = document.getElementById("getModalId");
       const modalId = modalIdElement.getAttribute("data-modal-id");
-
-      function changeIcon(iconPath1, iconPath2) {
-        const icons = modalIdElement.querySelectorAll("img");
-        icons[0].src = iconPath1;
-        icons[1].src = iconPath2;
-      }
+      const icons = modalIdElement.querySelectorAll("img");
 
       if (window.forLanguage === true)  //english use
       {
@@ -299,47 +294,58 @@ $(function() {
 
         if(modalId == 1)
         {
-          changeIcon("img/tagIcon/GameProject.ico", "img/tagIcon/TeamProejct.ico");
+          icons[0].src = "img/tagIcon/GameProject.ico";
+          icons[1].src = "img/tagIcon/TeamProejct.ico";
         }
         else if(modalId == 2)
         {
-          changeIcon("img/tagIcon/GameProject.ico", "img/tagIcon/TeamProejct.ico");
+          icons[0].src = "img/tagIcon/GameProject.ico";
+          icons[1].src = "img/tagIcon/TeamProejct.ico";
         }
         else if(modalId == 3)
         {
-          changeIcon("img/tagIcon/GameProject.ico", "img/tagIcon/TeamProejct.ico");         
+          icons[0].src = "img/tagIcon/GameProject.ico";
+          icons[1].src = "img/tagIcon/TeamProejct.ico";       
         }
         else if(modalId == 4)
         {
-          changeIcon("img/tagIcon/GameProject.ico", "img/tagIcon/SoloProejct.ico");      
+          icons[0].src = "img/tagIcon/GameProject.ico";
+          icons[1].src = "img/tagIcon/SoloProejct.ico"; 
         }
         else if(modalId == 5)
         {
-          changeIcon("img/tagIcon/GraphicEngine.ico", "img/tagIcon/SoloProejct.ico");              
+          icons[0].src = "img/tagIcon/GraphicEngine.ico";
+          icons[1].src = "img/tagIcon/SoloProejct.ico";           
         }
         else if(modalId == 6)
         {
-          changeIcon("img/tagIcon/GraphicEngine.ico", "img/tagIcon/SoloProejct.ico");              
+          icons[0].src = "img/tagIcon/GraphicEngine.ico";
+          icons[1].src = "img/tagIcon/SoloProejct.ico";   
         }
         else if(modalId == 7)
         {
-          changeIcon("img/tagIcon/GraphicEngine.ico", "img/tagIcon/SoloProejct.ico");              
+          icons[0].src = "img/tagIcon/GraphicEngine.ico";
+          icons[1].src = "img/tagIcon/SoloProejct.ico";                
         }
         else if(modalId == 8)
         {
-          changeIcon("img/tagIcon/GraphicEngine.ico", "img/tagIcon/SoloProejct.ico");                 
+          icons[0].src = "img/tagIcon/GraphicEngine.ico";
+          icons[1].src = "img/tagIcon/SoloProejct.ico";                 
         }
         else if(modalId == 9)
         {
-          changeIcon("img/tagIcon/ARProejct.ico", "img/tagIcon/TeamProejct.ico");              
+          icons[0].src = "img/tagIcon/ARProejct.ico";
+          icons[1].src = "img/tagIcon/TeamProejct.ico";   
         }
         else if(modalId == 10)
         {
-          changeIcon("img/tagIcon/MoblieProject.ico", "img/tagIcon/TeamProejct.ico");                 
+          icons[0].src = "img/tagIcon/MoblieProject.ico";
+          icons[1].src = "img/tagIcon/TeamProejct.ico";  
         }
         else if(modalId == 11)
         {
-          changeIcon("img/tagIcon/PortableProject.ico", "img/tagIcon/TeamProejct.ico");              
+          icons[0].src = "img/tagIcon/PortableProject.ico";
+          icons[1].src = "img/tagIcon/TeamProejct.ico";  
         }
       } 
       else  //korean use
@@ -364,47 +370,58 @@ $(function() {
 
         if(modalId == 1)
         {
-          changeIcon("img/tagIcon/GameProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");
+          icons[0].src = "img/tagIcon/GameProjectKor.ico";
+          icons[1].src = "img/tagIcon/TeamProejctKor.ico";
         }
         else if(modalId == 2)
         {
-          changeIcon("img/tagIcon/GameProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");
+          icons[0].src = "img/tagIcon/GameProjectKor.ico";
+          icons[1].src = "img/tagIcon/TeamProejctKor.ico";
         }
         else if(modalId == 3)
         {
-          changeIcon("img/tagIcon/GameProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");         
+          icons[0].src = "img/tagIcon/GameProjectKor.ico";
+          icons[1].src = "img/tagIcon/TeamProejctKor.ico";       
         }
         else if(modalId == 4)
         {
-          changeIcon("img/tagIcon/GameProjectKor.ico", "img/tagIcon/SoloProejctKor.ico");      
+          icons[0].src = "img/tagIcon/GameProjectKor.ico";
+          icons[1].src = "img/tagIcon/SoloProejctKor.ico"; 
         }
         else if(modalId == 5)
         {
-          changeIcon("img/tagIcon/GraphicEngineKor.ico", "img/tagIcon/SoloProejctKor.ico");              
+          icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
+          icons[1].src = "img/tagIcon/SoloProejctKor.ico";           
         }
         else if(modalId == 6)
         {
-          changeIcon("img/tagIcon/GraphicEngineKor.ico", "img/tagIcon/SoloProejctKor.ico");              
+          icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
+          icons[1].src = "img/tagIcon/SoloProejcKort.ico";   
         }
         else if(modalId == 7)
         {
-          changeIcon("img/tagIcon/GraphicEngineKor.ico", "img/tagIcon/SoloProejctKor.ico");              
+          icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
+          icons[1].src = "img/tagIcon/SoloProejctKor.ico";                
         }
         else if(modalId == 8)
         {
-          changeIcon("img/tagIcon/GraphicEngineKor.ico", "img/tagIcon/SoloProejctKor.ico");                 
+          icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
+          icons[1].src = "img/tagIcon/SoloProejctKor.ico";                 
         }
         else if(modalId == 9)
         {
-          changeIcon("img/tagIcon/ARProejctKor.ico", "img/tagIcon/TeamProejct.ico");              
+          icons[0].src = "img/tagIcon/ARProejctKor.ico";
+          icons[1].src = "img/tagIcon/TeamProejctKor.ico";   
         }
         else if(modalId == 10)
         {
-          changeIcon("img/tagIcon/MoblieProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");                 
+          icons[0].src = "img/tagIcon/MoblieProjectKor.ico";
+          icons[1].src = "img/tagIcon/TeamProejcKort.ico";  
         }
         else if(modalId == 11)
         {
-          changeIcon("img/tagIcon/PortableProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");              
+          icons[0].src = "img/tagIcon/PortableProjectKor.ico";
+          icons[1].src = "img/tagIcon/TeamProejctKor.ico";  
         }
       }
       event.preventDefault();
