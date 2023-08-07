@@ -10,7 +10,7 @@ function stopVideo(postModalId) {
 }
 
 // 디버그 메시지를 출력할 요소 선택
-//const debugMessageElement = document.getElementById("debugMessage");
+const debugMessageElement = document.getElementById("debugMessage");
 
 // 이미지 요소들 선택
 //const portfolioItems = document.querySelectorAll(".portfolio-item");
@@ -200,7 +200,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 25");
+        description.text(postModalId + "More detailed descriptions will be added soon. 26");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
