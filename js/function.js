@@ -34,10 +34,12 @@ const portfolioItems = document.querySelectorAll(".portfolio-item");
 
 portfolioItems.forEach(item => 
 {
+  const item = document.querySelector(".portfolio-link");
   const modalId = item.querySelector(".portfolio-link").getAttribute("href");
-  window.modalIdValue = modalId;
+  const postModalIds = $(item).attr('href').substring(1);
 
-  const modalIdElement = $(modalId).find("#getModalId");
+  //const modalIdElement = $(modalId).find("#getModalId");
+  const modalIdElement = $("#" + postModalIds).find("#getModalId");
   const icons = modalIdElement.find("img");
 
   item.addEventListener("mouseover", () => {
@@ -200,7 +202,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 26");
+        description.text(postModalId + "More detailed descriptions will be added soon. 27");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
