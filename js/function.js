@@ -9,14 +9,22 @@ function stopVideo(postModalId) {
   $("#" + postModalId).modal("hide");
 }
 
-/*function stopVideos(button) {
-  const modalId = $(button).data("id");
-  const videoPlayer = $("#portfolioModal-" + modalId).find("#videoPlayer")[0];
-  videoPlayer.pause();
+// 디버그 메시지를 출력할 요소 선택
+const debugMessageElement = document.getElementById("debugMessage");
+// 이미지 요소들 선택
+const portfolioItems = document.querySelectorAll(".portfolio-item");
+// 각 이미지 요소에 마우스 오버 이벤트 리스너 추가
+portfolioItems.forEach(item => {
+  const modalId = item.querySelector(".portfolio-link").getAttribute("href");
+  
+  item.addEventListener("mouseover", () => {
+    debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
+  });
 
-  // Manually close the modal
-  $("#portfolioModal-" + modalId).modal("hide");
-}*/
+  item.addEventListener("mouseout", () => {
+    debugMessageElement.textContent = "";
+  });
+});
 
 $(document).ready(function () {
   $(".pauseVideoButton").click(function () {
@@ -59,7 +67,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 5");
+        description.text(postModalId + "More detailed descriptions will be added soon. 6");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
@@ -278,11 +286,6 @@ $(function() {
         work.text("Mickey Music Academy");
         workDescription.text("I worked as a piano assistant instructor at a music academy, instructing numerous students ranging from kindergarten to middle school. <br>Additionally, I assisted with various administrative tasks at the academy.");
         workDate.text("2020 - 2021");
-
-        //descriptionOutput.textContent = "{{ post.description }}";
-        
-        //$(".descriptionForLanguageEng").show();
-        //$(".descriptionForLanguageKor").hide();
       } 
       else  //korean use
       {
@@ -304,58 +307,6 @@ $(function() {
         workDescription.text("음악 학원에서 피아노 보조 강사로 일했습니다, 유치부 부터 중등부까지 많은 학생들의 방과후 활동을 지도하였고 부가적으로 학원의 업무를 보조 하였습니다.");
         workDate.text("2020 - 2021");
       }
-
-      //showDescription();
-
-      //console.log("workDate:" + work);
-      //console.log("workDate#" + $("#workDateForLanguage"));
-
-      //console.log("work:" + eduDate);
-      //console.log("work#" + $("#workForLanguage"));
-
       event.preventDefault();
   });
 });
-
-
-/*function showDescription() {
-  //const nameEnglish = document.getElementById("name-english");
-  //const nameKorean = document.getElementById("name-korean");
-  const englishDescription = document.getElementById("english-description");
-  const koreanDescription = document.getElementById("korean-description");
-  const englishDescriptionSchool = document.getElementById("english-description-school");
-  const koreanDescriptionSchool = document.getElementById("korean-description-school");
-
-  if (window.forLanguage === false) //Korean
-  {
-    //nameEnglish.style.display = "none";
-    //nameKorean.style.display = "inline-block";
-    englishDescription.style.display = "none";
-    koreanDescription.style.display = "inline-block";
-    englishDescriptionSchool.style.display = "inline-block"
-    koreanDescriptionSchool.style.display = "inline-block"
-  } 
-  else //English 
-  {
-    //nameEnglish.style.display = "inline-block";
-    //nameKorean.style.display = "none";
-    englishDescription.style.display = "inline-block";
-    koreanDescription.style.display = "none"; //block
-    englishDescriptionSchool.style.display = "inline-block"
-    koreanDescriptionSchool.style.display = "none"
-  }
-}*/
-
-//$(document).ready(function () {
-//  showDescription(); // set language to display at loading 
-//});
-
-//$(document).ready(function () {
-//  $("#languageChange1").click(function () {
-//    changeLanguage(); // change Language
-//  });
-//});
-
-/*window.forLanguage = function() {
-  console.log("This is a global function!");
-};*/

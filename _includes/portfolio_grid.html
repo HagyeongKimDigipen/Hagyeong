@@ -12,7 +12,7 @@
       <div class="portfolio-flex-item portfolio-item">
         <a class="portfolio-link" href="#portfolioModal-{{ post.modal-id }}" data-toggle="modal">
           <div class="caption">
-            <div class="caption-content">
+            <div class="caption-content" id="debugCaption">
               {% if post.modal-id == "1" %}
                 <img src="img/tagIcon/GraphicEngine.ico" alt="Icon Description" style="width: 32px; height: 32px;">
               {% elsif  post.modal-id == "2" %}
@@ -46,6 +46,7 @@
       </div>
       {% endfor %}
     </div>
+    <div id="debugMessage"></div>
   </div>
 </section>
 
