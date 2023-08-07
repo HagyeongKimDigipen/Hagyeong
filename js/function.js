@@ -59,7 +59,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 2");
+        description.text(postModalId + "More detailed descriptions will be added soon. 3");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
