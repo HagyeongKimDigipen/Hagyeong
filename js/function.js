@@ -67,7 +67,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 11");
+        description.text(postModalId + "More detailed descriptions will be added soon. 12");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
@@ -243,6 +243,12 @@ $(function() {
   });
 });
 
+function changeIcon(iconPath1, iconPath2) {
+  const icons = iconContainer.querySelectorAll("img");
+  icons[0].src = iconPath1;
+  icons[1].src = iconPath2;
+}
+
 $(function() {
   $('.change-language a').bind('click', function(event) 
   {
@@ -267,6 +273,10 @@ $(function() {
       const workDescription = $("#workDescriptionForLanguage");
       const workDate = $("#workDateForLanguage");
 
+
+      const modalIdElement = document.getElementById("getModalId");
+      const modalId = modalIdElement.getAttribute("data-modal-id");
+
       if (window.forLanguage === true)  //english use
       {
         $(this).text("한국어");
@@ -286,6 +296,51 @@ $(function() {
         work.text("Mickey Music Academy");
         workDescription.text("I worked as a piano assistant instructor at a music academy, instructing numerous students ranging from kindergarten to middle school. <br>Additionally, I assisted with various administrative tasks at the academy.");
         workDate.text("2020 - 2021");
+
+        if(modalId == 1)
+        {
+          changeIcon("img/tagIcon/GameProject.ico", "img/tagIcon/TeamProejct.ico");
+        }
+        else if(modalId == 2)
+        {
+          changeIcon("img/tagIcon/GameProject.ico", "img/tagIcon/TeamProejct.ico");
+        }
+        else if(modalId == 3)
+        {
+          changeIcon("img/tagIcon/GameProject.ico", "img/tagIcon/TeamProejct.ico");         
+        }
+        else if(modalId == 4)
+        {
+          changeIcon("img/tagIcon/GameProject.ico", "img/tagIcon/SoloProejct.ico");      
+        }
+        else if(modalId == 5)
+        {
+          changeIcon("img/tagIcon/GraphicEngine.ico", "img/tagIcon/SoloProejct.ico");              
+        }
+        else if(modalId == 6)
+        {
+          changeIcon("img/tagIcon/GraphicEngine.ico", "img/tagIcon/SoloProejct.ico");              
+        }
+        else if(modalId == 7)
+        {
+          changeIcon("img/tagIcon/GraphicEngine.ico", "img/tagIcon/SoloProejct.ico");              
+        }
+        else if(modalId == 8)
+        {
+          changeIcon("img/tagIcon/GraphicEngine.ico", "img/tagIcon/SoloProejct.ico");                 
+        }
+        else if(modalId == 9)
+        {
+          changeIcon("img/tagIcon/ARProejct.ico", "img/tagIcon/TeamProejct.ico");              
+        }
+        else if(modalId == 10)
+        {
+          changeIcon("img/tagIcon/MoblieProject.ico", "img/tagIcon/TeamProejct.ico");                 
+        }
+        else if(modalId == 11)
+        {
+          changeIcon("img/tagIcon/PortableProject.ico", "img/tagIcon/TeamProejct.ico");              
+        }
       } 
       else  //korean use
       {
@@ -306,6 +361,51 @@ $(function() {
         work.text("미키 음악 학원");
         workDescription.text("음악 학원에서 피아노 보조 강사로 일했습니다, 유치부 부터 중등부까지 많은 학생들의 방과후 활동을 지도하였고 부가적으로 학원의 업무를 보조 하였습니다.");
         workDate.text("2020 - 2021");
+
+        if(modalId == 1)
+        {
+          changeIcon("img/tagIcon/GameProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");
+        }
+        else if(modalId == 2)
+        {
+          changeIcon("img/tagIcon/GameProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");
+        }
+        else if(modalId == 3)
+        {
+          changeIcon("img/tagIcon/GameProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");         
+        }
+        else if(modalId == 4)
+        {
+          changeIcon("img/tagIcon/GameProjectKor.ico", "img/tagIcon/SoloProejctKor.ico");      
+        }
+        else if(modalId == 5)
+        {
+          changeIcon("img/tagIcon/GraphicEngineKor.ico", "img/tagIcon/SoloProejctKor.ico");              
+        }
+        else if(modalId == 6)
+        {
+          changeIcon("img/tagIcon/GraphicEngineKor.ico", "img/tagIcon/SoloProejctKor.ico");              
+        }
+        else if(modalId == 7)
+        {
+          changeIcon("img/tagIcon/GraphicEngineKor.ico", "img/tagIcon/SoloProejctKor.ico");              
+        }
+        else if(modalId == 8)
+        {
+          changeIcon("img/tagIcon/GraphicEngineKor.ico", "img/tagIcon/SoloProejctKor.ico");                 
+        }
+        else if(modalId == 9)
+        {
+          changeIcon("img/tagIcon/ARProejctKor.ico", "img/tagIcon/TeamProejct.ico");              
+        }
+        else if(modalId == 10)
+        {
+          changeIcon("img/tagIcon/MoblieProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");                 
+        }
+        else if(modalId == 11)
+        {
+          changeIcon("img/tagIcon/PortableProjectKor.ico", "img/tagIcon/TeamProejctKor.ico");              
+        }
       }
       event.preventDefault();
   });
