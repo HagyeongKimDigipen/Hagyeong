@@ -36,7 +36,7 @@ portfolioItems.forEach(item =>
 {
   const modalId = item.querySelector(".portfolio-link").getAttribute("href");
 
-  const modalIdElement = $(modalId).find("#getModalId");
+  const getImg = $(item).find("#getModalId");
   //const icons = modalIdElement.find("img");
 
   item.addEventListener("mouseover", () => {
@@ -45,116 +45,116 @@ portfolioItems.forEach(item =>
     {
       if(modalId == "#portfolioModal-1")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/GameProject.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";
+        getImg.find("firstIcon").src = "img/tagIcon/GameProject.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";
       }
       else if(modalId == "#portfolioModal-2")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/GameProject.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";
+        getImg.find("firstIcon").src = "img/tagIcon/GameProject.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";
       }
       else if(modalId == "#portfolioModal-3")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/GameProject.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";       
+        getImg.find("firstIcon").src = "img/tagIcon/GameProject.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";       
       }
       else if(modalId == "#portfolioModal-4")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/GameProject.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/SoloProejct.ico"; 
+        getImg.find("firstIcon").src = "img/tagIcon/GameProject.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/SoloProejct.ico"; 
       }
       else if(modalId == "#portfolioModal-5")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/GraphicEngine.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/SoloProejct.ico";           
+        getImg.find("firstIcon").src = "img/tagIcon/GraphicEngine.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/SoloProejct.ico";           
       }
       else if(modalId == "#portfolioModal-6")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/GraphicEngine.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/SoloProejct.ico";   
+        getImg.find("firstIcon").src = "img/tagIcon/GraphicEngine.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/SoloProejct.ico";   
       }
       else if(modalId == "#portfolioModal-7")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/GraphicEngine.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/SoloProejct.ico";                
+        getImg.find("firstIcon").src = "img/tagIcon/GraphicEngine.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/SoloProejct.ico";                
       }
       else if(modalId == "#portfolioModal-8")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/GraphicEngine.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/SoloProejct.ico";                 
+        getImg.find("firstIcon").src = "img/tagIcon/GraphicEngine.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/SoloProejct.ico";                 
       }
       else if(modalId == "#portfolioModal-9")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/ARProejct.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";   
+        getImg.find("firstIcon").src = "img/tagIcon/ARProejct.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";   
       }
       else if(modalId == "#portfolioModal-10")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/MoblieProject.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";  
+        getImg.find("firstIcon").src = "img/tagIcon/MoblieProject.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";  
       }
       else if(modalId == "#portfolioModal-11")
       {
-        modalIdElement.find("firstIcon").src = "img/tagIcon/PortableProject.ico";
-        modalIdElement.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";  
+        getImg.find("firstIcon").src = "img/tagIcon/PortableProject.ico";
+        getImg.find("secondIcon").src = "img/tagIcon/TeamProejct.ico";  
       }
     } 
     else  //korean use
     {
       if(modalId == "#portfolioModal-1")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/GameProjectKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";
+        getImg.getElementById("firstIcon").src = "img/tagIcon/GameProjectKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";
       }
       else if(modalId == "#portfolioModal-2")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/GameProjectKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";
+        getImg.getElementById("firstIcon").src = "img/tagIcon/GameProjectKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";
       }
       else if(modalId == "#portfolioModal-3")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/GameProjectKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";       
+        getImg.getElementById("firstIcon").src = "img/tagIcon/GameProjectKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";       
       }
       else if(modalId == "#portfolioModal-4")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/GameProjectKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/SoloProejctKor.ico"; 
+        getImg.getElementById("firstIcon").src = "img/tagIcon/GameProjectKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/SoloProejctKor.ico"; 
       }
       else if(modalId == "#portfolioModal-5")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/GraphicEngineKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/SoloProejctKor.ico";           
+        getImg.getElementById("firstIcon").src = "img/tagIcon/GraphicEngineKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/SoloProejctKor.ico";           
       }
      else if(modalId == "#portfolioModal-6")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/GraphicEngineKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/SoloProejcKort.ico";   
+        getImg.getElementById("firstIcon").src = "img/tagIcon/GraphicEngineKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/SoloProejcKort.ico";   
       }
       else if(modalId == "#portfolioModal-7")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/GraphicEngineKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/SoloProejctKor.ico";                
+        getImg.getElementById("firstIcon").src = "img/tagIcon/GraphicEngineKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/SoloProejctKor.ico";                
       }
       else if(modalId == "#portfolioModal-8")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/GraphicEngineKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/SoloProejctKor.ico";                 
+        getImg.getElementById("firstIcon").src = "img/tagIcon/GraphicEngineKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/SoloProejctKor.ico";                 
       }
       else if(modalId == "#portfolioModal-9")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/ARProejctKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";   
+        getImg.getElementById("firstIcon").src = "img/tagIcon/ARProejctKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";   
       }
       else if(modalId == "#portfolioModal-10")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/MoblieProjectKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/TeamProejcKort.ico";  
+        getImg.getElementById("firstIcon").src = "img/tagIcon/MoblieProjectKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/TeamProejcKort.ico";  
       }
       else if(modalId == "#portfolioModal-11")
       {
-        modalIdElement.getElementById("firstIcon").src = "img/tagIcon/PortableProjectKor.ico";
-        modalIdElement.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";  
+        getImg.getElementById("firstIcon").src = "img/tagIcon/PortableProjectKor.ico";
+        getImg.getElementById("secondIcon").src = "img/tagIcon/TeamProejctKor.ico";  
       }
     }
   });
@@ -199,7 +199,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 27");
+        description.text(postModalId + "More detailed descriptions will be added soon. 28");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
