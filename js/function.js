@@ -268,7 +268,7 @@ $(function() {
       const workDate = $("#workDateForLanguage");
 
       const postModalIds = $(this).attr('href').substring(1);
-      console.debug("id isss " + postModalIds);
+      console.log("id isss " + postModalIds);
 
       const modalIdElement = $("#" + postModalIds).find("#getModalId");
       const modalId = modalIdElement.attr("data-modal-id");
