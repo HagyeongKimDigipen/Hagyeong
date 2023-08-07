@@ -19,7 +19,7 @@ portfolioItems.forEach(item =>
 {
   const modalId = item.querySelector(".portfolio-link").getAttribute("href");
 
-  const modalIdElement = $("#" + modalId).find("#getModalId");
+  const modalIdElement = $(modalId).find("#getModalId");
   const icons = modalIdElement.find("img");
 
   if (window.forLanguage === true)  //english use
@@ -189,7 +189,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 23");
+        description.text(postModalId + "More detailed descriptions will be added soon. 24");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
