@@ -67,7 +67,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 19");
+        description.text(postModalId + "More detailed descriptions will be added soon. 20");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
@@ -293,58 +293,65 @@ $(function() {
         work.text("Mickey Music Academy");
         workDescription.text("I worked as a piano assistant instructor at a music academy, instructing numerous students ranging from kindergarten to middle school. <br>Additionally, I assisted with various administrative tasks at the academy.");
         workDate.text("2020 - 2021");
+        
+        const portfolioItems = document.querySelectorAll(".portfolio-item");
 
-        if(modalId == 1)
+        portfolioItems.forEach(item => {
+          const modalId = item.querySelector(".portfolio-link").getAttribute("href");
+            console.log("Mouse over image with modal-id: " + modalId);
+        });
+
+        if(modalId == "portfolioModal-1")
         {
           icons[0].src = "img/tagIcon/GameProject.ico";
           icons[1].src = "img/tagIcon/TeamProejct.ico";
         }
-        else if(modalId == 2)
+        else if(modalId == "portfolioModal-2")
         {
           icons[0].src = "img/tagIcon/GameProject.ico";
           icons[1].src = "img/tagIcon/TeamProejct.ico";
         }
-        else if(modalId == 3)
+        else if(modalId == "portfolioModal-3")
         {
           icons[0].src = "img/tagIcon/GameProject.ico";
           icons[1].src = "img/tagIcon/TeamProejct.ico";       
         }
-        else if(modalId == 4)
+        else if(modalId == "portfolioModal-4")
         {
           icons[0].src = "img/tagIcon/GameProject.ico";
           icons[1].src = "img/tagIcon/SoloProejct.ico"; 
         }
-        else if(modalId == 5)
+        else if(modalId == "portfolioModal-5")
         {
           icons[0].src = "img/tagIcon/GraphicEngine.ico";
           icons[1].src = "img/tagIcon/SoloProejct.ico";           
         }
-        else if(modalId == 6)
+        else if(modalId == "portfolioModal-6")
         {
           icons[0].src = "img/tagIcon/GraphicEngine.ico";
           icons[1].src = "img/tagIcon/SoloProejct.ico";   
         }
-        else if(modalId == 7)
+        else if(modalId == "portfolioModal-7")
         {
           icons[0].src = "img/tagIcon/GraphicEngine.ico";
           icons[1].src = "img/tagIcon/SoloProejct.ico";                
         }
-        else if(modalId == 8)
+        else if(modalId == "portfolioModal-8")
         {
           icons[0].src = "img/tagIcon/GraphicEngine.ico";
           icons[1].src = "img/tagIcon/SoloProejct.ico";                 
         }
-        else if(modalId == 9)
+        else if(modalId == "portfolioModal-9")
         {
           icons[0].src = "img/tagIcon/ARProejct.ico";
           icons[1].src = "img/tagIcon/TeamProejct.ico";   
         }
-        else if(modalId == 10)
+        else if(modalId == "portfolioModal-10")
         {
           icons[0].src = "img/tagIcon/MoblieProject.ico";
           icons[1].src = "img/tagIcon/TeamProejct.ico";  
         }
-        else if(modalId == 11)
+        else if(modalId == "portfolioModal-11")
         {
           icons[0].src = "img/tagIcon/PortableProject.ico";
           icons[1].src = "img/tagIcon/TeamProejct.ico";  
@@ -370,57 +377,57 @@ $(function() {
         workDescription.text("음악 학원에서 피아노 보조 강사로 일했습니다, 유치부 부터 중등부까지 많은 학생들의 방과후 활동을 지도하였고 부가적으로 학원의 업무를 보조 하였습니다.");
         workDate.text("2020 - 2021");
 
-        if(modalId == 1)
+        if(modalId == "portfolioModal-1")
         {
           icons[0].src = "img/tagIcon/GameProjectKor.ico";
           icons[1].src = "img/tagIcon/TeamProejctKor.ico";
         }
-        else if(modalId == 2)
+        else if(modalId == "portfolioModal-2")
         {
           icons[0].src = "img/tagIcon/GameProjectKor.ico";
           icons[1].src = "img/tagIcon/TeamProejctKor.ico";
         }
-        else if(modalId == 3)
+        else if(modalId == "portfolioModal-3")
         {
           icons[0].src = "img/tagIcon/GameProjectKor.ico";
           icons[1].src = "img/tagIcon/TeamProejctKor.ico";       
         }
-        else if(modalId == 4)
+        else if(modalId == "portfolioModal-4")
         {
           icons[0].src = "img/tagIcon/GameProjectKor.ico";
           icons[1].src = "img/tagIcon/SoloProejctKor.ico"; 
         }
-        else if(modalId == 5)
+        else if(modalId == "portfolioModal-5")
         {
           icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
           icons[1].src = "img/tagIcon/SoloProejctKor.ico";           
         }
-        else if(modalId == 6)
+        else if(modalId == "portfolioModal-6")
         {
           icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
           icons[1].src = "img/tagIcon/SoloProejcKort.ico";   
         }
-        else if(modalId == 7)
+        else if(modalId == "portfolioModal-7")
         {
           icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
           icons[1].src = "img/tagIcon/SoloProejctKor.ico";                
         }
-        else if(modalId == 8)
+        else if(modalId == "portfolioModal-8")
         {
           icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
           icons[1].src = "img/tagIcon/SoloProejctKor.ico";                 
         }
-        else if(modalId == 9)
+        else if(modalId == "portfolioModal-9")
         {
           icons[0].src = "img/tagIcon/ARProejctKor.ico";
           icons[1].src = "img/tagIcon/TeamProejctKor.ico";   
         }
-        else if(modalId == 10)
+        else if(modalId == "portfolioModal-10")
         {
           icons[0].src = "img/tagIcon/MoblieProjectKor.ico";
           icons[1].src = "img/tagIcon/TeamProejcKort.ico";  
         }
-        else if(modalId == 11)
+        else if(modalId == "portfolioModal-11")
         {
           icons[0].src = "img/tagIcon/PortableProjectKor.ico";
           icons[1].src = "img/tagIcon/TeamProejctKor.ico";  
