@@ -67,7 +67,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 15");
+        description.text(postModalId + "More detailed descriptions will be added soon. 16");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
@@ -268,7 +268,13 @@ $(function() {
       const workDate = $("#workDateForLanguage");
 
 
-      const modalIdElement = document.getElementById("getModalId");
+
+      const description = $("#" + postModalId).find("#descriptionForLanguage");
+      const role = $("#" + postModalId).find("#roleForLanguage");
+
+
+      const postModalId = $(this).attr('href').substring(1);
+      const modalIdElement = $("#" + postModalId).find("getModalId");
       const modalId = modalIdElement.getAttribute("data-modal-id");
       const icons = modalIdElement.querySelectorAll("img");
 
