@@ -10,21 +10,21 @@ function stopVideo(postModalId) {
 }
 
 // 디버그 메시지를 출력할 요소 선택
-const debugMessageElement = document.getElementById("debugMessage");
+//const debugMessageElement = document.getElementById("debugMessage");
 // 이미지 요소들 선택
-const portfolioItems = document.querySelectorAll(".portfolio-item");
+//const portfolioItems = document.querySelectorAll(".portfolio-item");
 // 각 이미지 요소에 마우스 오버 이벤트 리스너 추가
-portfolioItems.forEach(item => {
-  const modalId = item.querySelector(".portfolio-link").getAttribute("href");
+//portfolioItems.forEach(item => {
+//  const modalId = item.querySelector(".portfolio-link").getAttribute("href");
   
-  item.addEventListener("mouseover", () => {
-    debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
-  });
+//  item.addEventListener("mouseover", () => {
+//    debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
+//  });
 
-  item.addEventListener("mouseout", () => {
-    debugMessageElement.textContent = "";
-  });
-});
+//  item.addEventListener("mouseout", () => {
+//    debugMessageElement.textContent = "";
+//  });
+//});
 
 $(document).ready(function () {
   $(".pauseVideoButton").click(function () {
@@ -67,7 +67,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 10");
+        description.text(postModalId + "More detailed descriptions will be added soon. 11");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
