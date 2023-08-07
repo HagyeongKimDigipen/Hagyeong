@@ -6,15 +6,15 @@ project-category: Mobile Game Project
 name: Cloud Pang Pang
 thumbnail: PangPangCloud/PangPangCloud_1.JPG
 img: 
- - PangPangCloud/PangPangCloud_0.JPG
+ - PangPangCloud/PangPangCloud_0.jpg
  - PangPangCloud/PangPangCloud_1.JPG
  - PangPangCloud/PangPangCloud_2.JPG
  - PangPangCloud/PangPangCloud_3.JPG
  - PangPangCloud/PangPangCloud_4.JPG
  - PangPangCloud/PangPangCloud_6.JPG
  - PangPangCloud/PangPangCloud_7.JPG
- - PangPangCloud/PangPangCloud_8.JPG
- - PangPangCloud/PangPangCloud_9.JPG
+ - PangPangCloud/PangPangCloud_8.jpg
+ - PangPangCloud/PangPangCloud_9.jpg
 video: CloudPangPang.mp4
 alt: image-alt
 project-date: May 2022 - August 2022
