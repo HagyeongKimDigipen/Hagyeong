@@ -18,7 +18,10 @@ const portfolioItems = document.querySelectorAll(".portfolio-item");
 portfolioItems.forEach(item => 
 {
   const modalId = item.querySelector(".portfolio-link").getAttribute("href");
-  
+
+  const modalIdElement = $("#" + modalId).find("#getModalId");
+  const icons = modalIdElement.find("img");
+
   if (window.forLanguage === true)  //english use
   {
     if(modalId == "portfolioModal-1")
@@ -186,7 +189,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 21");
+        description.text(postModalId + "More detailed descriptions will be added soon. 22");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
@@ -385,13 +388,6 @@ $(function() {
       const work = $("#workForLanguage");
       const workDescription = $("#workDescriptionForLanguage");
       const workDate = $("#workDateForLanguage");
-
-      const postModalIds = $(this).attr('href').substring(1);
-      console.log("id isss " + postModalIds);
-
-      const modalIdElement = $("#" + postModalIds).find("#getModalId");
-      const modalId = modalIdElement.attr("data-modal-id");
-      const icons = modalIdElement.find("img");
 
       if (window.forLanguage === true)  //english use
       {
