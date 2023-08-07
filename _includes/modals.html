@@ -21,11 +21,11 @@
             <!--<img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt }}">-->
             <div class="image-grid">
               <div class="row">
-                {% for image in post.img %}
+                {% for image in post.img -%}
                 <div class="col-md-4">
                   <img src="img/portfolio/{{ image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                 </div>
-                {% endfor %}
+                {%- endfor %}
               </div>
             </div>
             {% endif %}

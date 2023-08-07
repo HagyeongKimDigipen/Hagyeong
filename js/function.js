@@ -149,7 +149,7 @@ portfolioItems.forEach(item =>
       else if(modalId == "#portfolioModal-10")
       {
         document.getElementById("firstIcon10").src = "img/tagIcon/MoblieProjectKor.ico";
-        document.getElementById("secondIcon10").src = "img/tagIcon/TeamProejcKort.ico";  
+        document.getElementById("secondIcon10").src = "img/tagIcon/TeamProejctKor.ico";  
       }
       else if(modalId == "#portfolioModal-11")
       {
@@ -199,7 +199,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 28");
+        description.text(postModalId + "More detailed descriptions will be added soon. 29");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
