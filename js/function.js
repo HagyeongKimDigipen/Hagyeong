@@ -67,7 +67,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 12");
+        description.text(postModalId + "More detailed descriptions will be added soon. 13");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
@@ -243,12 +243,6 @@ $(function() {
   });
 });
 
-function changeIcon(iconPath1, iconPath2) {
-  const icons = iconContainer.querySelectorAll("img");
-  icons[0].src = iconPath1;
-  icons[1].src = iconPath2;
-}
-
 $(function() {
   $('.change-language a').bind('click', function(event) 
   {
@@ -276,6 +270,12 @@ $(function() {
 
       const modalIdElement = document.getElementById("getModalId");
       const modalId = modalIdElement.getAttribute("data-modal-id");
+
+      function changeIcon(iconPath1, iconPath2) {
+        const icons = modalIdElement.querySelectorAll("img");
+        icons[0].src = iconPath1;
+        icons[1].src = iconPath2;
+      }
 
       if (window.forLanguage === true)  //english use
       {
