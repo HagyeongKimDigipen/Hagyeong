@@ -11,141 +11,154 @@ function stopVideo(postModalId) {
 
 // 디버그 메시지를 출력할 요소 선택
 //const debugMessageElement = document.getElementById("debugMessage");
+
 // 이미지 요소들 선택
-const portfolioItems = document.querySelectorAll(".portfolio-item");
+//const portfolioItems = document.querySelectorAll(".portfolio-item");
 
 // 각 이미지 요소에 마우스 오버 이벤트 리스너 추가
+//portfolioItems.forEach(item => {
+//  const modalId = item.querySelector(".portfolio-link").getAttribute("href");
+  
+//  item.addEventListener("mouseover", () => {
+//    debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
+//  });
+
+//  item.addEventListener("mouseout", () => {
+//    debugMessageElement.textContent = "";
+//  });
+//});
+
+window.forLanguage = true; // true = English false = Korean
+
+const portfolioItems = document.querySelectorAll(".portfolio-item");
+
 portfolioItems.forEach(item => 
 {
   const modalId = item.querySelector(".portfolio-link").getAttribute("href");
+  window.modalIdValue = modalId;
 
   const modalIdElement = $(modalId).find("#getModalId");
   const icons = modalIdElement.find("img");
 
-  if (window.forLanguage === true)  //english use
-  {
-    if(modalId == "portfolioModal-1")
+  item.addEventListener("mouseover", () => {
+    debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
+    if (window.forLanguage === true)  //english use
     {
-      icons[0].src = "img/tagIcon/GameProject.ico";
-      icons[1].src = "img/tagIcon/TeamProejct.ico";
-    }
-    else if(modalId == "portfolioModal-2")
+      if(modalId == "#portfolioModal-1")
+      {
+        icons[0].src = "img/tagIcon/GameProject.ico";
+        icons[1].src = "img/tagIcon/TeamProejct.ico";
+      }
+      else if(modalId == "#portfolioModal-2")
+      {
+        icons[0].src = "img/tagIcon/GameProject.ico";
+        icons[1].src = "img/tagIcon/TeamProejct.ico";
+      }
+      else if(modalId == "#portfolioModal-3")
+      {
+        icons[0].src = "img/tagIcon/GameProject.ico";
+        icons[1].src = "img/tagIcon/TeamProejct.ico";       
+      }
+      else if(modalId == "#portfolioModal-4")
+      {
+        icons[0].src = "img/tagIcon/GameProject.ico";
+        icons[1].src = "img/tagIcon/SoloProejct.ico"; 
+      }
+      else if(modalId == "#portfolioModal-5")
+      {
+        icons[0].src = "img/tagIcon/GraphicEngine.ico";
+        icons[1].src = "img/tagIcon/SoloProejct.ico";           
+      }
+      else if(modalId == "#portfolioModal-6")
+      {
+        icons[0].src = "img/tagIcon/GraphicEngine.ico";
+        icons[1].src = "img/tagIcon/SoloProejct.ico";   
+      }
+      else if(modalId == "#portfolioModal-7")
+      {
+        icons[0].src = "img/tagIcon/GraphicEngine.ico";
+        icons[1].src = "img/tagIcon/SoloProejct.ico";                
+      }
+      else if(modalId == "#portfolioModal-8")
+      {
+        icons[0].src = "img/tagIcon/GraphicEngine.ico";
+        icons[1].src = "img/tagIcon/SoloProejct.ico";                 
+      }
+      else if(modalId == "#portfolioModal-9")
+      {
+        icons[0].src = "img/tagIcon/ARProejct.ico";
+        icons[1].src = "img/tagIcon/TeamProejct.ico";   
+      }
+      else if(modalId == "#portfolioModal-10")
+      {
+        icons[0].src = "img/tagIcon/MoblieProject.ico";
+        icons[1].src = "img/tagIcon/TeamProejct.ico";  
+      }
+      else if(modalId == "#portfolioModal-11")
+      {
+        icons[0].src = "img/tagIcon/PortableProject.ico";
+        icons[1].src = "img/tagIcon/TeamProejct.ico";  
+      }
+    } 
+    else  //korean use
     {
-      icons[0].src = "img/tagIcon/GameProject.ico";
-      icons[1].src = "img/tagIcon/TeamProejct.ico";
+      if(modalId == "#portfolioModal-1")
+      {
+        icons[0].src = "img/tagIcon/GameProjectKor.ico";
+        icons[1].src = "img/tagIcon/TeamProejctKor.ico";
+      }
+      else if(modalId == "#portfolioModal-2")
+      {
+        icons[0].src = "img/tagIcon/GameProjectKor.ico";
+        icons[1].src = "img/tagIcon/TeamProejctKor.ico";
+      }
+      else if(modalId == "#portfolioModal-3")
+      {
+        icons[0].src = "img/tagIcon/GameProjectKor.ico";
+        icons[1].src = "img/tagIcon/TeamProejctKor.ico";       
+      }
+      else if(modalId == "#portfolioModal-4")
+      {
+        icons[0].src = "img/tagIcon/GameProjectKor.ico";
+        icons[1].src = "img/tagIcon/SoloProejctKor.ico"; 
+      }
+      else if(modalId == "#portfolioModal-5")
+      {
+        icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
+        icons[1].src = "img/tagIcon/SoloProejctKor.ico";           
+      }
+     else if(modalId == "#portfolioModal-6")
+      {
+        icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
+        icons[1].src = "img/tagIcon/SoloProejcKort.ico";   
+      }
+      else if(modalId == "#portfolioModal-7")
+      {
+        icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
+        icons[1].src = "img/tagIcon/SoloProejctKor.ico";                
+      }
+      else if(modalId == "#portfolioModal-8")
+      {
+        icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
+        icons[1].src = "img/tagIcon/SoloProejctKor.ico";                 
+      }
+      else if(modalId == "#portfolioModal-9")
+      {
+        icons[0].src = "img/tagIcon/ARProejctKor.ico";
+        icons[1].src = "img/tagIcon/TeamProejctKor.ico";   
+      }
+      else if(modalId == "#portfolioModal-10")
+      {
+        icons[0].src = "img/tagIcon/MoblieProjectKor.ico";
+        icons[1].src = "img/tagIcon/TeamProejcKort.ico";  
+      }
+      else if(modalId == "#portfolioModal-11")
+      {
+        icons[0].src = "img/tagIcon/PortableProjectKor.ico";
+        icons[1].src = "img/tagIcon/TeamProejctKor.ico";  
+      }
     }
-    else if(modalId == "portfolioModal-3")
-    {
-      icons[0].src = "img/tagIcon/GameProject.ico";
-      icons[1].src = "img/tagIcon/TeamProejct.ico";       
-    }
-    else if(modalId == "portfolioModal-4")
-    {
-      icons[0].src = "img/tagIcon/GameProject.ico";
-      icons[1].src = "img/tagIcon/SoloProejct.ico"; 
-    }
-    else if(modalId == "portfolioModal-5")
-    {
-      icons[0].src = "img/tagIcon/GraphicEngine.ico";
-      icons[1].src = "img/tagIcon/SoloProejct.ico";           
-    }
-    else if(modalId == "portfolioModal-6")
-    {
-      icons[0].src = "img/tagIcon/GraphicEngine.ico";
-      icons[1].src = "img/tagIcon/SoloProejct.ico";   
-    }
-    else if(modalId == "portfolioModal-7")
-    {
-      icons[0].src = "img/tagIcon/GraphicEngine.ico";
-      icons[1].src = "img/tagIcon/SoloProejct.ico";                
-    }
-    else if(modalId == "portfolioModal-8")
-    {
-      icons[0].src = "img/tagIcon/GraphicEngine.ico";
-      icons[1].src = "img/tagIcon/SoloProejct.ico";                 
-    }
-    else if(modalId == "portfolioModal-9")
-    {
-      icons[0].src = "img/tagIcon/ARProejct.ico";
-      icons[1].src = "img/tagIcon/TeamProejct.ico";   
-    }
-    else if(modalId == "portfolioModal-10")
-    {
-      icons[0].src = "img/tagIcon/MoblieProject.ico";
-      icons[1].src = "img/tagIcon/TeamProejct.ico";  
-    }
-    else if(modalId == "portfolioModal-11")
-    {
-      icons[0].src = "img/tagIcon/PortableProject.ico";
-      icons[1].src = "img/tagIcon/TeamProejct.ico";  
-    }
-  } 
-  else  //korean use
-  {
-    if(modalId == "portfolioModal-1")
-    {
-      icons[0].src = "img/tagIcon/GameProjectKor.ico";
-      icons[1].src = "img/tagIcon/TeamProejctKor.ico";
-    }
-    else if(modalId == "portfolioModal-2")
-    {
-      icons[0].src = "img/tagIcon/GameProjectKor.ico";
-      icons[1].src = "img/tagIcon/TeamProejctKor.ico";
-    }
-    else if(modalId == "portfolioModal-3")
-    {
-      icons[0].src = "img/tagIcon/GameProjectKor.ico";
-      icons[1].src = "img/tagIcon/TeamProejctKor.ico";       
-    }
-    else if(modalId == "portfolioModal-4")
-    {
-      icons[0].src = "img/tagIcon/GameProjectKor.ico";
-      icons[1].src = "img/tagIcon/SoloProejctKor.ico"; 
-    }
-    else if(modalId == "portfolioModal-5")
-    {
-      icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
-      icons[1].src = "img/tagIcon/SoloProejctKor.ico";           
-    }
-    else if(modalId == "portfolioModal-6")
-    {
-      icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
-      icons[1].src = "img/tagIcon/SoloProejcKort.ico";   
-    }
-    else if(modalId == "portfolioModal-7")
-    {
-      icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
-      icons[1].src = "img/tagIcon/SoloProejctKor.ico";                
-    }
-    else if(modalId == "portfolioModal-8")
-    {
-      icons[0].src = "img/tagIcon/GraphicEngineKor.ico";
-      icons[1].src = "img/tagIcon/SoloProejctKor.ico";                 
-    }
-    else if(modalId == "portfolioModal-9")
-    {
-      icons[0].src = "img/tagIcon/ARProejctKor.ico";
-      icons[1].src = "img/tagIcon/TeamProejctKor.ico";   
-    }
-    else if(modalId == "portfolioModal-10")
-    {
-      icons[0].src = "img/tagIcon/MoblieProjectKor.ico";
-      icons[1].src = "img/tagIcon/TeamProejcKort.ico";  
-    }
-    else if(modalId == "portfolioModal-11")
-    {
-      icons[0].src = "img/tagIcon/PortableProjectKor.ico";
-      icons[1].src = "img/tagIcon/TeamProejctKor.ico";  
-    }
-  }
-
-  //item.addEventListener("mouseover", () => {
-  //  debugMessageElement.textContent = `Mouse over image with modal-id: ${modalId}`;
-  //});
-
-  //item.addEventListener("mouseout", () => {
-  //  debugMessageElement.textContent = "";
-  //});
+  });
 });
 
 $(document).ready(function () {
@@ -154,8 +167,6 @@ $(document).ready(function () {
     stopVideo(postModalId); // Call the stopVideo function when the button is clicked
   });
 });
-
-window.forLanguage = true; // true = English false = Korean
 
 function changeLanguage()
 {
@@ -189,7 +200,7 @@ $(function() {
       //start to description
       if(postModalId == "portfolioModal-1")
       {
-        description.text(postModalId + "More detailed descriptions will be added soon. 24");
+        description.text(postModalId + "More detailed descriptions will be added soon. 25");
         role.text("Producer");
         date.text("September 2019 - June 2020");
         category.text("Team Game Project");
