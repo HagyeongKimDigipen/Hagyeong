@@ -10,6 +10,7 @@ img:
  - PangPangCloud/PangPangCloud_2.jpg
  - PangPangCloud/PangPangCloud_3.jpg
  - PangPangCloud/PangPangCloud_4.jpg
+ - PangPangCloud/PangPangCloud_5.jpg
  - PangPangCloud/PangPangCloud_6.jpg
 video: CloudPangPang.mp4
 alt: image-alt
