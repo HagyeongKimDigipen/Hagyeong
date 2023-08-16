@@ -28,7 +28,7 @@ disqus_shortname: myshortname
 color:
   primary: ddc6b6                 #mint firt page
   primary-rgb: "221, 198, 182"    
-  secondary: 262223               #bar and letter with white
+  secondary: 332e2f               #bar and letter with white
   secondary-dark: 181616
 
 # Footer settings

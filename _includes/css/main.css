@@ -279,6 +279,10 @@ section.success {
     }
   } */
 
+  .btn.btn-success.btn-lg:hover {
+    background-color: #{{ site.color.secondary-dark }};
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
