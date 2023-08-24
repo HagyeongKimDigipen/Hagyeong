@@ -416,7 +416,7 @@ $(function() {
         eduDateKor.text("");
 
         work.text("Mickey Music Academy");
-        workDescription.text("I worked as a piano assistant instructor at a music academy, instructing numerous students ranging from kindergarten to middle school. <br> Additionally, I assisted with various administrative tasks at the academy.");
+        workDescription.text("I worked as a piano assistant instructor at a music academy, instructing numerous students ranging from kindergarten to middle school. \r\n Additionally, I assisted with various administrative tasks at the academy.");
         workDate.text("2020 - 2021");
       } 
       else  //korean use
